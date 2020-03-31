@@ -6,22 +6,31 @@
 //
 //  Copyright (c) Microsoft Corporation.  All rights reserved.
 //
-#define _WIN32_WINNT        0x0400
+//#define _WIN32_WINNT        0x0400
+#define WINVER 0x0A00
+#define _WIN32_WINNT 0x0A00
 #define WIN32
 #define NT
 #define SECURITY_WIN32
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
-#define DBG_TRACE   0
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
 
-#if _MSC_VER >= 1300
+#define DBG_TRACE   0
 #include <winsock2.h>
+#include <ws2tcpip.h>
+#if _MSC_VER >= 1300
+
+
 #endif
 #include <windows.h>
 #include <security.h>
 #include <stdio.h>
 #include "detours.h"
 #include "syelog.h"
+
 
 #define PULONG_PTR          PVOID
 #define PLONG_PTR           PVOID
@@ -67,6 +76,70 @@ VOID AssertMessage(CONST PCHAR pszMsg, CONST PCHAR pszFile, ULONG nLine);
 //////////////////////////////////////////////////////////////////////////////
 //
 extern "C" {
+    INT (WSAAPI *Real_GetAddrInfoExA)(
+                    PCSTR                              pName,
+                    PCSTR                              pServiceName,
+                    DWORD                              dwNameSpace,
+                    LPGUID                             lpNspId,
+                    const ADDRINFOEXA                  *hints,
+                    PADDRINFOEXA                       *ppResult,
+                    timeval                            *timeout,
+                    LPOVERLAPPED                       lpOverlapped,
+                    LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,
+                    LPHANDLE                           lpNameHandle
+            ) 
+        = GetAddrInfoExA;
+ 
+    INT (WSAAPI *Real_GetAddrInfoExW)(
+                    PCWSTR                             pName,
+                    PCWSTR                             pServiceName,
+                    DWORD                              dwNameSpace,
+                    LPGUID                             lpNspId,
+                    const ADDRINFOEXW                  *hints,
+                    PADDRINFOEXW                       *ppResult,
+                    timeval                            *timeout,
+                    LPOVERLAPPED                       lpOverlapped,
+                    LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,
+                    LPHANDLE                           lpHandle
+            ) 
+        = GetAddrInfoExW;
+
+    INT (WSAAPI *Real_GetAddrInfoW)(
+            PCWSTR          pNodeName,
+            PCWSTR          pServiceName,
+            const ADDRINFOW *pHints,
+            PADDRINFOW      *ppResult
+        ) 
+        = GetAddrInfoW;
+
+    INT (WSAAPI *Real_getaddrinfo)(
+                    PCSTR           pNodeName,
+                    PCSTR           pServiceName,
+                    const ADDRINFOA *pHints,
+                    PADDRINFOA      *ppResult
+            ) 
+        = getaddrinfo;
+    SOCKET (WSAAPI *Real_WSASocketA)(
+            int                 af,
+            int                 type,
+            int                 protocol,
+            LPWSAPROTOCOL_INFOA lpProtocolInfo,
+            GROUP               g,
+            DWORD               dwFlags
+    ) 
+        =  WSASocketA;
+
+    SOCKET (WSAAPI *Real_WSASocketW)(
+            int                 af,
+            int                 type,
+            int                 protocol,
+            LPWSAPROTOCOL_INFOW lpProtocolInfo,
+            GROUP               g,
+            DWORD               dwFlags
+    ) 
+        = WSASocketW;
+
+
     HANDLE (WINAPI * Real_CreateFileW)(LPCWSTR a0,
                                        DWORD a1,
                                        DWORD a2,
@@ -449,8 +522,25 @@ BOOL WINAPI Mine_CreateProcessW(LPCWSTR lpApplicationName,
                 lpProcessInformation);
 
     BOOL rv = 0;
+    BOOL inject =  0;
+    __try
+    {
+        if(lpCommandLine && wcsstr(lpCommandLine, L"=network"))
+        {
+            inject = 1;
+            _Print("Injecting !!!!");
+        }
+
+    }
+    __except(EXCEPTION_EXECUTE_HANDLER)
+    {
+        _Print("Exception happened !" );
+
+    }
     __try {
-        rv = Real_CreateProcessW(lpApplicationName,
+        if(!inject)
+        {
+            rv = Real_CreateProcessW(lpApplicationName,
                                  lpCommandLine,
                                  lpProcessAttributes,
                                  lpThreadAttributes,
@@ -460,11 +550,73 @@ BOOL WINAPI Mine_CreateProcessW(LPCWSTR lpApplicationName,
                                  lpCurrentDirectory,
                                  lpStartupInfo,
                                  lpProcessInformation);
+        }
+        else
+        {
+            rv = DetourCreateProcessWithDllW(
+                 lpApplicationName,
+                 lpCommandLine,
+                 lpProcessAttributes,
+                 lpThreadAttributes,
+                 bInheritHandles,
+                 dwCreationFlags,
+                 lpEnvironment,
+                 lpCurrentDirectory,
+                 lpStartupInfo,
+                lpProcessInformation,
+                "C:\\work\\Detours\\Bin.x64\\trcssl64.dll",
+                nullptr
+                );
+        }
     } __finally {
         _PrintExit("CreateProcessW(,,,,,,,,,) -> %x\n", rv);
     };
     return rv;
 }
+
+ SOCKET WSAAPI Mine_WSASocketA(
+            int                 af,
+            int                 type,
+            int                 protocol,
+            LPWSAPROTOCOL_INFOA lpProtocolInfo,
+            GROUP               g,
+            DWORD               dwFlags
+    ) 
+    {
+        SOCKET rv = INVALID_SOCKET ;
+        _try
+        {
+            rv = Real_WSASocketA(af, type, protocol, lpProtocolInfo, g, dwFlags);
+        }
+        _finally
+        {
+            _PrintEnter("WSASocketA -> %p", rv);
+            _PrintExit("WSASocketA");
+        }
+        return rv;
+    }
+        
+    SOCKET WSAAPI Mine_WSASocketW(
+            int                 af,
+            int                 type,
+            int                 protocol,
+            LPWSAPROTOCOL_INFOW lpProtocolInfo,
+            GROUP               g,
+            DWORD               dwFlags
+    ) 
+    {
+        SOCKET rv = INVALID_SOCKET ;
+        _try
+        {
+            rv = Real_WSASocketW(af, type, protocol, lpProtocolInfo, g, dwFlags);
+        }
+        _finally
+        {
+            _PrintEnter("WSASocketW -> %p", rv);
+            _PrintExit("WSASocketW");
+        }
+        return rv;
+    }
 
 #if _MSC_VER < 1300
 SOCKET WINAPI Mine_WSAAccept(SOCKET a0,
@@ -551,7 +703,7 @@ HANDLE WINAPI Mine_WSAAsyncGetHostByName(HWND a0,
                                          int a4)
 {
     _PrintEnter("WSAAsyncGetHostByName(%p,%x,%p,%p,%x)\n", a0, a1, a2, a3, a4);
-
+     
     HANDLE rv = 0;
     __try {
         rv = Real_WSAAsyncGetHostByName(a0, a1, a2, a3, a4);
@@ -597,16 +749,16 @@ HANDLE WINAPI Mine_WSAAsyncGetProtoByNumber(HWND a0,
 
 HANDLE WINAPI Mine_WSAAsyncGetServByName(HWND a0,
                                          u_int a1,
-                                         char* a2,
+                                         char* name,
                                          char* a3,
                                          char* a4,
                                          int a5)
 {
-    _PrintEnter("WSAAsyncGetServByName(%p,%x,%p,%p,%p,%x)\n", a0, a1, a2, a3, a4, a5);
+    _PrintEnter("WSAAsyncGetServByName(%p,%x, %s, %p,%p,%x)\n", a0, a1, name? name : "(null)", a3, a4, a5);
 
     HANDLE rv = 0;
     __try {
-        rv = Real_WSAAsyncGetServByName(a0, a1, a2, a3, a4, a5);
+        rv = Real_WSAAsyncGetServByName(a0, a1, name, a3, a4, a5);
     } __finally {
         _PrintExit("WSAAsyncGetServByName(,,,,,) -> %p\n", rv);
     };
@@ -1191,6 +1343,98 @@ int WINAPI Mine_recvfrom(SOCKET a0,
     };
     return rv;
 }
+INT WSAAPI Mine_GetAddrInfoExA(
+                    PCSTR                              pName,
+                    PCSTR                              pServiceName,
+                    DWORD                              dwNameSpace,
+                    LPGUID                             lpNspId,
+                    const ADDRINFOEXA                  *hints,
+                    PADDRINFOEXA                       *ppResult,
+                    timeval                            *timeout,
+                    LPOVERLAPPED                       lpOverlapped,
+                    LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,
+                    LPHANDLE                           lpNameHandle
+            ) 
+{
+    _PrintEnter(" GetAddrInfoExA( NAME( %s) , SRV_NAME(%s),)", pName ? pName : "(null)", pServiceName ? pServiceName : "(NULL)" );
+
+    int rv = 0;
+    __try {
+        rv = Real_GetAddrInfoExA(pName, pServiceName, dwNameSpace, lpNspId, hints, ppResult, timeout, lpOverlapped, lpCompletionRoutine, lpNameHandle);
+    } __finally {
+        _PrintExit("GetAddrInfoExA(,,,,) -> %x\n", rv);
+    };
+    return rv;    
+}
+
+INT WSAAPI Mine_GetAddrInfoExW(
+                    PCWSTR                             pName,
+                    PCWSTR                             pServiceName,
+                    DWORD                              dwNameSpace,
+                    LPGUID                             lpNspId,
+                    const ADDRINFOEXW                  *hints,
+                    PADDRINFOEXW                       *ppResult,
+                    timeval                            *timeout,
+                    LPOVERLAPPED                       lpOverlapped,
+                    LPLOOKUPSERVICE_COMPLETION_ROUTINE lpCompletionRoutine,
+                    LPHANDLE                           lpHandle
+            ) 
+{
+    _PrintEnter(" GetAddrInfoExW( NAME( %ls) , SRV_NAME(%ls),)", pName ? pName : L"(null)", pServiceName ? pServiceName : L"(NULL)" );
+
+    int rv = 0;
+    __try {
+        rv = Real_GetAddrInfoExW(pName, pServiceName, dwNameSpace, lpNspId, hints, ppResult, timeout, lpOverlapped, lpCompletionRoutine, lpHandle);
+    } 
+    __finally {
+        _PrintExit("GetAddrInfoExW(,,,,) -> %x\n", rv);
+    };
+    return rv;
+}
+
+INT WSAAPI Mine_GetAddrInfoW(
+        PCWSTR          pNodeName,
+        PCWSTR          pServiceName,
+        const ADDRINFOW *pHints,
+        PADDRINFOW      *ppResult
+    ) 
+{
+    _PrintEnter(" GetAddrInfoW( NAME( %ls) , SRV_NAME(%ls),)", pNodeName ? pNodeName : L"(null)", pServiceName ? pServiceName : L"(NULL)" );
+
+    int rv = 0;
+    __try {    
+        rv = Real_GetAddrInfoW(pNodeName, pServiceName, pHints,ppResult); 
+    }
+    __finally
+    {
+        _PrintExit("GetAddrInfoW(,,,,) -> %x\n", rv);    
+    }
+    return rv;
+}
+
+INT WSAAPI Mine_getaddrinfo(
+                    PCSTR           pNodeName,
+                    PCSTR           pServiceName,
+                    const ADDRINFOA *pHints,
+                    PADDRINFOA      *ppResult
+            ) 
+{
+    int rv = 0;
+    _PrintEnter(" getaddrinfo( NAME( %s) , SRV_NAME(%s),)", pNodeName ? pNodeName : "(null)", pServiceName ? pServiceName : "(NULL)" );
+
+    __try
+    {
+      rv = Real_getaddrinfo(  pNodeName, pServiceName, pHints,  ppResult);
+    }
+    __finally
+    {
+        _PrintExit("getaddrinfo(,,,,) -> %x\n", rv);    
+
+    }
+    return rv;
+}
+
+
 
 VOID _PrintDump(SOCKET socket, PCHAR pszData, INT cbData)
 {
@@ -1428,6 +1672,8 @@ LONG AttachDetours(VOID)
     ATTACH(CreateProcessW);
     ATTACH(DecryptMessage);
     ATTACH(EncryptMessage);
+    ATTACH(WSASocketA);
+    ATTACH(WSASocketW);
     ATTACH(WSAAccept);
     ATTACH(WSAAddressToStringA);
     ATTACH(WSAAddressToStringW);
@@ -1472,7 +1718,10 @@ LONG AttachDetours(VOID)
     ATTACH(send);
     ATTACH(sendto);
     ATTACH(shutdown);
-
+    ATTACH(GetAddrInfoExA);
+    ATTACH(GetAddrInfoExW);
+    ATTACH(GetAddrInfoW);
+    ATTACH(getaddrinfo);
     return DetourTransactionCommit();
 }
 
@@ -1480,7 +1729,8 @@ LONG DetachDetours(VOID)
 {
     DetourTransactionBegin();
     DetourUpdateThread(GetCurrentThread());
-
+    DETACH(WSASocketA);
+    DETACH(WSASocketW);
     DETACH(CreateProcessW);
     DETACH(DecryptMessage);
     DETACH(EncryptMessage);
@@ -1528,7 +1778,10 @@ LONG DetachDetours(VOID)
     DETACH(send);
     DETACH(sendto);
     DETACH(shutdown);
-
+    DETACH(GetAddrInfoExA);
+    DETACH(GetAddrInfoExW);
+    DETACH(GetAddrInfoW);
+    DETACH(getaddrinfo);
     return DetourTransactionCommit();
 }
 
@@ -1561,6 +1814,8 @@ VOID _PrintEnter(const CHAR *psz, ...)
         PCHAR pszBuf = szBuf;
         PCHAR pszEnd = szBuf + ARRAYSIZE(szBuf) - 1;
         LONG nLen = (nIndent > 0) ? (nIndent < 35 ? nIndent * 2 : 70) : 0;
+        *pszBuf++ = 'T';
+        *pszBuf++ = ':';
         *pszBuf++ = (CHAR)('0' + ((nThread / 100) % 10));
         *pszBuf++ = (CHAR)('0' + ((nThread / 10) % 10));
         *pszBuf++ = (CHAR)('0' + ((nThread / 1) % 10));

@@ -1,6 +1,8 @@
 # C extensions
 *.so
-
+log.0*.xml
+bin.x64/
+bin.x86/
 # Unit test / coverage reports
 .coverage
 .tox
@@ -31,3 +33,6 @@ include/
 obj.*
 *.ipdb
 *.iobj
+test*.txt
+test*.exe.*
+*debug*.log
