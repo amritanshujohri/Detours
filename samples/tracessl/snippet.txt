@@ -1,0 +1,90 @@
+	 339402 001 CreateThread(673c)
+	 339402 001 CreateThread(currentid(673c) - child(2cd8)) -> 234
+	 339433 001 CreateThread(673c)
+	 339433 001 CreateThread(currentid(673c) - child(1f04)) -> 26c
+	 339435 001 CreateThread(673c)
+	 339437 001 CreateThread(currentid(673c) - child(41f4)) -> 28c
+	 339437 001 CreateThread(673c)
+	 339438 001 CreateThread(currentid(673c) - child(3c70)) -> 298
+	 339438 001 CreateThread(673c)
+	 339439 001 CreateThread(currentid(673c) - child(3788)) -> 2a0
+	 339440 005 CreateThread(41f4)
+	 339440 005 CreateThread(currentid(41f4) - child(57bc)) -> 2d4
+	 339441 005 CreateThread(41f4)
+	 339441 008 CreateThread(57bc)
+	 339442 008 CreateThread(currentid(57bc) - child(6554)) -> 314
+	 339441 005 CreateThread(currentid(41f4) - child(6d94)) -> 328
+	 339448 007 CreateThread(3788)
+	 339448 007 CreateThread(currentid(3788) - child(5b64)) -> 370
+	 339463 006 CreateThread(3c70)
+	 339464 006 CreateThread(currentid(3c70) - child(5cb4)) -> 3dc
+	 339590 010 CreateThread(6554)
+	 339590 010 CreateThread(currentid(6554) - child(5ff4)) -> 3f0
+	 339592 007 WSASocketW -> 414
+	 339592 007 WSASocketW
+	 339595 007 414: connect(,cdaa7fe578:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+	 339596 007 414: closesocket() -> 0
+	 339598 008  getaddrinfo( TID: 57bc NAME( wpad)  , SRV_NAME((NULL)), (PADDR 24a230702bc))
+	 339598 008    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+	 339599 010  getaddrinfo( TID: 6554 NAME( wpad)  , SRV_NAME((NULL)), (PADDR 24a230702bc))
+	 339604 007 CreateThread(3788)
+	 339605 010    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+	 339605 007 CreateThread(currentid(3788) - child(5034)) -> 430
+	 340592 005  getaddrinfo( TID: 41f4 NAME( edge.microsoft.com)  , SRV_NAME((NULL)), (PADDR 30))
+	 340592 005    GetAddrInfoW( NAME( edge.microsoft.com) , SRV_NAME((NULL)),)
+	 340592 009  getaddrinfo( TID: 6d94 NAME( www.example1.com)  , SRV_NAME((NULL)), (PADDR 0))
+	 340594 009    GetAddrInfoW( NAME( www.example1.com) , SRV_NAME((NULL)),)
+	 340592 015 CreateThread(5ff4)
+	 340596 015 CreateThread(currentid(5ff4) - child(6728)) -> 49c
+	 340597 015 CreateThread(5ff4)
+	 340597 017  getaddrinfo( TID: 6728 NAME( www.bing.com)  , SRV_NAME((NULL)), (PADDR 0))
+	 340598 015 CreateThread(currentid(5ff4) - child(5350)) -> 4b8
+	 340598 009     WSASocketW -> 4ac
+	 340600 009     WSASocketW
+	 340599 015  getaddrinfo( TID: 5ff4 NAME( edge.activity.windows.com)  , SRV_NAME((NULL)), (PADDR 23340000))
+	 340604 015    GetAddrInfoW( NAME( edge.activity.windows.com) , SRV_NAME((NULL)),)
+	 340599 017    GetAddrInfoW( NAME( www.bing.com) , SRV_NAME((NULL)),)
+	 340604 009     4ac: closesocket() -> 0
+	 340606 009   GetAddrInfoW(,,,,) -> 0
+	 340606 009   IPv4 address 24a22ea03c0 69.94.6.39
+	 340600 007 WSASocketW -> 3d0
+	 340608 007 WSASocketW
+	 340607 009 getaddrinfo(,,,,) -> 0
+	 340611 007 3d0: connect(,cdaa7fcf08:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+	 340611 007 3d0: closesocket() -> 0
+	 340618 009  getaddrinfo( TID: 6d94 NAME( config.edge.skype.com)  , SRV_NAME((NULL)), (PADDR 82af13bd8386))
+	 340618 009    GetAddrInfoW( NAME( config.edge.skype.com) , SRV_NAME((NULL)),)
+	 340618 007 WSASocketW -> 4bc
+	 340619 007 WSASocketW
+	 340621 007 CreateThread(3788)
+	 340622 007 CreateThread(currentid(3788) - child(2dd4)) -> 4f0
+	 340622 007 4bc: connect(,cdaa7fef20:69.94.6.39:443,10) -> ffffffff [10035]
+	 340623 007 WSASocketW -> 4f4
+	 340623 007 WSASocketW
+	 340626 007 4f4: connect(,cdaa7fc2a0:69.94.6.39:443,10) -> ffffffff [10035]
+	 340808 005     WSASocketW -> 504
+	 340808 005     WSASocketW
+	 340808 005     504: closesocket() -> 0
+	 340811 005   GetAddrInfoW(,,,,) -> 0
+	 340820 005   IPv4 address 24a22ea0560 13.107.6.158
+	 340823 005 getaddrinfo(,,,,) -> 0
+	 340825 007 WSASocketW -> 504
+	 340827 007 WSASocketW
+	 340839 007 504: connect(,cdaa7fef20:13.107.6.158:443,10) -> ffffffff [10035]
+	 340841 017     WSASocketW -> 514
+	 340841 017     WSASocketW
+	 340842 017     514: closesocket() -> 0
+	 340842 017   GetAddrInfoW(,,,,) -> 0
+	 340843 017   IPv4 address 24a22ea02a0 204.79.197.200
+	 340844 017   IPv4 address 24a22ea0000 13.107.21.200
+	 340846 017 getaddrinfo(,,,,) -> 0
+	 340844 007 WSASocketW -> 518
+	 340848 007 WSASocketW
+	 340852 007 518: connect(,cdaa7ff030:13.107.6.158:443,10) -> ffffffff [10035]
+	 340853 007 WSASocketW -> 524
+	 340853 007 WSASocketW
+	 340857 015     WSASocketW -> 52c
+	 340859 015     WSASocketW
+	 340859 015     52c: closesocket() -> 0
+	 340860 015   GetAddrInfoW(,,,,) -> 0
+	 340861 007 524: connect(,cdaa7ff030:69.94.6.39:443,10) -> ffffffff [10035]

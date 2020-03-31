@@ -65,6 +65,7 @@
 //////////////////////////////////////////////////////////////////////////////
 static HMODULE s_hInst = NULL;
 static WCHAR s_wzDllPath[MAX_PATH];
+static LONG s_reCPLock = -1;
 
 VOID _PrintDump(SOCKET socket, PCHAR pszData, INT cbData);
 VOID _PrintEnter(PCSTR psz, ...);
@@ -75,7 +76,16 @@ VOID AssertMessage(CONST PCHAR pszMsg, CONST PCHAR pszFile, ULONG nLine);
 
 //////////////////////////////////////////////////////////////////////////////
 //
+
 extern "C" {
+    HANDLE (WINAPI * Real_CreateThread)(LPSECURITY_ATTRIBUTES a0,
+                                       SIZE_T a1,
+                                       LPTHREAD_START_ROUTINE a2,
+                                       LPVOID a3,
+                                       DWORD a4,
+                                       LPDWORD a5)
+    = CreateThread;
+
     INT (WSAAPI *Real_GetAddrInfoExA)(
                     PCSTR                              pName,
                     PCSTR                              pServiceName,
@@ -498,6 +508,29 @@ SECURITY_STATUS (SEC_ENTRY * Real_DecryptMessage)( PCtxtHandle         phContext
 //////////////////////////////////////////////////////////////////////////////
 // Detours
 //
+HANDLE __stdcall Mine_CreateThread(LPSECURITY_ATTRIBUTES a0,
+                                   SIZE_T a1,
+                                   LPTHREAD_START_ROUTINE a2,
+                                   LPVOID a3,
+                                   DWORD a4,
+                                   LPDWORD a5)
+{
+    auto cid = GetCurrentThreadId();
+    _PrintEnter("CreateThread(%x)\n", cid );
+    DWORD tid = 0; 
+
+    HANDLE rv = 0;
+    __try {
+        rv = Real_CreateThread(a0, a1, a2, a3, a4, &tid);
+        if(a5)
+        {
+            *a5 = tid;
+        }
+    } __finally {
+        _PrintExit("CreateThread(currentid(%x) - child(%x)) -> %p\n", cid, tid, rv);
+    };
+    return rv;
+}
 BOOL WINAPI Mine_CreateProcessW(LPCWSTR lpApplicationName,
                                 LPWSTR lpCommandLine,
                                 LPSECURITY_ATTRIBUTES lpProcessAttributes,
@@ -527,10 +560,13 @@ BOOL WINAPI Mine_CreateProcessW(LPCWSTR lpApplicationName,
     {
         if(lpCommandLine && wcsstr(lpCommandLine, L"=network"))
         {
-            inject = 1;
-            _Print("Injecting !!!!");
+            
+            if(!(LONG)(LONG_PTR)TlsGetValue(s_reCPLock))
+            {
+                inject = 1;
+                _Print("Injecting !!!!");
+            }
         }
-
     }
     __except(EXCEPTION_EXECUTE_HANDLER)
     {
@@ -553,6 +589,7 @@ BOOL WINAPI Mine_CreateProcessW(LPCWSTR lpApplicationName,
         }
         else
         {
+            TlsSetValue(s_reCPLock, (PVOID)(LONG_PTR)1);
             rv = DetourCreateProcessWithDllW(
                  lpApplicationName,
                  lpCommandLine,
@@ -567,6 +604,7 @@ BOOL WINAPI Mine_CreateProcessW(LPCWSTR lpApplicationName,
                 "C:\\work\\Detours\\Bin.x64\\trcssl64.dll",
                 nullptr
                 );
+            TlsSetValue(s_reCPLock, (PVOID)(LONG_PTR)0);
         }
     } __finally {
         _PrintExit("CreateProcessW(,,,,,,,,,) -> %x\n", rv);
@@ -1420,11 +1458,39 @@ INT WSAAPI Mine_getaddrinfo(
             ) 
 {
     int rv = 0;
-    _PrintEnter(" getaddrinfo( NAME( %s) , SRV_NAME(%s),)", pNodeName ? pNodeName : "(null)", pServiceName ? pServiceName : "(NULL)" );
+    _PrintEnter(" getaddrinfo( TID: %x NAME( %s)  , SRV_NAME(%s), (PADDR %p))", GetCurrentThreadId(), 
+    pNodeName ? pNodeName : "(null)", pServiceName ? pServiceName : "(NULL)", ppResult? *ppResult : 0 );
 
     __try
     {
-      rv = Real_getaddrinfo(  pNodeName, pServiceName, pHints,  ppResult);
+        rv = Real_getaddrinfo(  pNodeName, pServiceName, pHints,  ppResult);
+        if(!rv && ppResult)
+        {
+            // Retrieve each address and print out the hex bytes
+            for(auto ptr=*ppResult; ptr != NULL ;ptr=ptr->ai_next) 
+            {
+                if (ptr->ai_family == AF_INET) 
+                {
+                    auto sockaddr_ipv4 = (struct sockaddr_in *) ptr->ai_addr;
+                    _Print("IPv4 address %p %s \n", sockaddr_ipv4, inet_ntoa(sockaddr_ipv4->sin_addr) );
+                }
+                else if(ptr->ai_family == AF_INET6)
+                {
+                    auto sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
+                    // The buffer length is changed by each call to WSAAddresstoString
+                    // So we need to set it for each iteration through the loop for safety
+                    DWORD ipbufferlength = 64;
+                    char ipstringbuffer[64] = {0};
+                    Real_WSAAddressToStringA(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, ipstringbuffer, &ipbufferlength );
+                    _Print("IPv6 address %p %s\n", sockaddr_ip, ipstringbuffer);
+
+                }
+                else
+                {
+                    _Print(" unknown %p\n", ptr);
+                }                
+            }
+        }
     }
     __finally
     {
@@ -1670,6 +1736,7 @@ LONG AttachDetours(VOID)
     DetourUpdateThread(GetCurrentThread());
 
     ATTACH(CreateProcessW);
+    ATTACH(CreateThread);
     ATTACH(DecryptMessage);
     ATTACH(EncryptMessage);
     ATTACH(WSASocketA);
@@ -1794,7 +1861,6 @@ static BOOL s_bLog = 1;
 static LONG s_nTlsIndent = -1;
 static LONG s_nTlsThread = -1;
 static LONG s_nThreadCnt = 0;
-
 VOID _PrintEnter(const CHAR *psz, ...)
 {
     DWORD dwErr = GetLastError();
@@ -1814,8 +1880,6 @@ VOID _PrintEnter(const CHAR *psz, ...)
         PCHAR pszBuf = szBuf;
         PCHAR pszEnd = szBuf + ARRAYSIZE(szBuf) - 1;
         LONG nLen = (nIndent > 0) ? (nIndent < 35 ? nIndent * 2 : 70) : 0;
-        *pszBuf++ = 'T';
-        *pszBuf++ = ':';
         *pszBuf++ = (CHAR)('0' + ((nThread / 100) % 10));
         *pszBuf++ = (CHAR)('0' + ((nThread / 10) % 10));
         *pszBuf++ = (CHAR)('0' + ((nThread / 1) % 10));
@@ -1945,6 +2009,10 @@ BOOL ThreadAttach(HMODULE hDll)
         LONG nThread = InterlockedIncrement(&s_nThreadCnt);
         TlsSetValue(s_nTlsThread, (PVOID)(LONG_PTR)nThread);
     }
+    if(s_reCPLock >= 0)
+    {
+        TlsSetValue(s_reCPLock, (PVOID)(LONG_PTR)0);
+    }
     return TRUE;
 }
 
@@ -1966,7 +2034,7 @@ BOOL ProcessAttach(HMODULE hDll)
     s_bLog = FALSE;
     s_nTlsIndent = TlsAlloc();
     s_nTlsThread = TlsAlloc();
-
+    s_reCPLock = TlsAlloc();
     WCHAR wzExeName[MAX_PATH];
     s_hInst = hDll;
 

@@ -1,0 +1,2055 @@
+20200331192634578 26012 50.60: trcssl64: ##################################################################
+20200331192634578 26012 50.60: trcssl64: ### C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+20200331192634583 26012 50.60: trcssl64: 001 CreateProcessW(C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=crashpad-handler "--user-data-dir=C:\Users\johri\AppData\Local\Microsoft\Edge\User Data" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\johri\AppData\Local\Microsoft\Edge\User Data\Crashpad" "--metrics-dir=C:\Users\johri\AppData\Local\Microsoft\Edge\User Data" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=80.0.3987.149 "--annotation=exe=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --annotation=plat=Win64 --annotation=prod=Edge --annotation=ver=80.0.361.69 --initial-client-data=0xc0,0xc4,0xc8,0xbc,0xcc,0x7ff87f416f20,0x7ff87f416f30,0x7ff87f416f40,0,0,1,80000,0,<NULL>,b2f9dfedc0,b2f9dfeda8)
+20200331192634591 26012 50.60: trcssl64: 001 CreateProcessW(,,,,,,,,,) -> 1
+20200331192634646 26012 50.60: trcssl64: 001 CreateProcessW(<NULL>,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=watcher --main-thread-id=27352 --on-initialized-event-handle=716 --parent-handle=720 /prefetch:6,0,0,1,80000,0,<NULL>,b2f9dff518,b2f9dff3d0)
+20200331192634651 26012 50.60: trcssl64: 001 CreateProcessW(,,,,,,,,,) -> 1
+20200331192634652 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634652 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(4fc4)) -> 2f0
+20200331192634659 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634659 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(53b8)) -> 3fc
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3b8c)) -> 4d0
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(5698)) -> 248
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(22c0)) -> 438
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634695 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(6540)) -> 460
+20200331192634696 26012 50.60: trcssl64: 010 CreateThread(6540)
+20200331192634696 26012 50.60: trcssl64: 010 CreateThread(currentid(6540) - child(3fc0)) -> 500
+20200331192634698 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634698 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(6348)) -> 44c
+20200331192634707 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634707 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(4234)) -> 564
+20200331192634713 26012 50.60: trcssl64: 001 WSACreateEvent()
+20200331192634713 26012 50.60: trcssl64: 001 WSACreateEvent() -> 55c
+20200331192634714 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634714 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(71c)) -> 584
+20200331192634738 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634738 26012 50.60: trcssl64: 009 CreateThread(22c0)
+20200331192634738 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(eac)) -> 634
+20200331192634739 26012 50.60: trcssl64: 009 CreateThread(currentid(22c0) - child(5bdc)) -> 644
+20200331192634740 26012 50.60: trcssl64: 015 CreateThread(eac)
+20200331192634740 26012 50.60: trcssl64: 016 CreateThread(5bdc)
+20200331192634741 26012 50.60: trcssl64: 015 CreateThread(currentid(eac) - child(217c)) -> 68c
+20200331192634741 26012 50.60: trcssl64: 016 CreateThread(currentid(5bdc) - child(5954)) -> 698
+20200331192634758 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634758 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(6638)) -> 704
+20200331192634758 26012 50.60: trcssl64: 012 CreateThread(6348)
+20200331192634761 26012 50.60: trcssl64: 005 WSASocketW -> 754
+20200331192634762 26012 50.60: trcssl64: 005 WSASocketW
+20200331192634761 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634761 26012 50.60: trcssl64: 012 CreateThread(currentid(6348) - child(291c)) -> 768
+20200331192634762 26012 50.60: trcssl64: 005 754: closesocket() -> 0
+20200331192634764 26012 50.60: trcssl64: 005 WSACleanup()
+20200331192634764 26012 50.60: trcssl64: 012 CreateThread(6348)
+20200331192634763 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3d6c)) -> 788
+20200331192634765 26012 50.60: trcssl64: 005 WSACleanup() -> 0
+20200331192634766 26012 50.60: trcssl64: 012 CreateThread(currentid(6348) - child(6094)) -> 7c4
+20200331192634769 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634769 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(483c)) -> 834
+20200331192634771 26012 50.60: trcssl64: 005 WSASocketW -> 868
+20200331192634771 26012 50.60: trcssl64: 005 WSASocketW
+20200331192634771 26012 50.60: trcssl64: 005 868: closesocket() -> 0
+20200331192634772 26012 50.60: trcssl64: 005 WSACleanup()
+20200331192634773 26012 50.60: trcssl64: 005 WSACleanup() -> 0
+20200331192634775 26012 50.60: trcssl64: 023 CreateProcessW(<NULL>,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --field-trial-handle=1820,15990988950391796615,3722496348331190766,131072 --lang=en-US --service-sandbox-type=network --enable-audio-service-sandbox --mojo-platform-channel-handle=2116 /prefetch:8,0,0,1,80000,0,<NULL>,b28bffefa8,b28bffee60)
+20200331192634775 26012 50.60: trcssl64: 023   Injecting !!!!
+20200331192634775 26012 50.60: trcssl64: 023   CreateProcessW(<NULL>,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --field-trial-handle=1820,15990988950391796615,3722496348331190766,131072 --lang=en-US --service-sandbox-type=network --enable-audio-service-sandbox --mojo-platform-channel-handle=2116 /prefetch:8,0,0,1,80004,0,<NULL>,b28bffefa8,b28bffed00)
+20200331192634778 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634778 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(19f0)) -> 974
+20200331192634780 26012 50.60: trcssl64: 026 WSACreateEvent()
+20200331192634780 26012 50.60: trcssl64: 026 WSACreateEvent() -> 994
+20200331192634780 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634785 26012 50.60: trcssl64: 023   CreateProcessW(,,,,,,,,,) -> 1
+20200331192634785 26012 50.60: trcssl64: 026  GetAddrInfoExW( NAME( nav.smartscreen.microsoft.com) , SRV_NAME((NULL)),)
+20200331192634785 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3424)) -> 9b0
+20200331192634786 26012 50.60: trcssl64: 026   WSASocketW -> 9d0
+20200331192634787 26012 50.60: trcssl64: 026   WSASocketW
+20200331192634787 26012 50.60: trcssl64: 023 CreateProcessW(,,,,,,,,,) -> 1
+20200331192634787 26012 50.60: trcssl64: 026   9d0: closesocket() -> 0
+20200331192634788 26012 50.60: trcssl64: 026   WSASocketW -> 9f4
+20200331192634789 26012 50.60: trcssl64: 026   WSASocketW
+20200331192634789 26012 50.60: trcssl64: 026   9f4: closesocket() -> 0
+20200331192634790 26012 50.60: trcssl64: 026 GetAddrInfoExW(,,,,) -> 3e5
+20200331192634795 14492 50.60: trcssl64: ##################################################################
+20200331192634795 14492 50.60: trcssl64: ### C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+20200331192634813 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634813 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(2590)) -> a88
+20200331192634814 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634820 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(45b0)) -> ac8
+20200331192634825 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634825 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(4f80)) -> b20
+20200331192634825 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634825 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(25e4)) -> a80
+20200331192634829 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634829 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(26fc)) -> b44
+20200331192634831 14492 50.60: trcssl64: 001 CreateThread(43c0)
+20200331192634831 14492 50.60: trcssl64: 001 CreateThread(currentid(43c0) - child(4c98)) -> 234
+20200331192634831 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634831 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(2d34)) -> b4c
+20200331192634850 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634850 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3408)) -> b64
+20200331192634853 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634853 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(1260)) -> be0
+20200331192634857 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634857 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(4e6c)) -> be8
+20200331192634866 14492 50.60: trcssl64: 001 CreateThread(43c0)
+20200331192634866 14492 50.60: trcssl64: 001 CreateThread(currentid(43c0) - child(2668)) -> 71c
+20200331192634866 14492 50.60: trcssl64: 001 CreateThread(43c0)
+20200331192634867 14492 50.60: trcssl64: 001 CreateThread(currentid(43c0) - child(4788)) -> 298
+20200331192634870 14492 50.60: trcssl64: 001 CreateThread(43c0)
+20200331192634871 14492 50.60: trcssl64: 001 CreateThread(currentid(43c0) - child(1334)) -> 2a4
+20200331192634871 14492 50.60: trcssl64: 001 CreateThread(43c0)
+20200331192634872 14492 50.60: trcssl64: 001 CreateThread(currentid(43c0) - child(34d8)) -> 2b0
+20200331192634873 14492 50.60: trcssl64: 005 CreateThread(4788)
+20200331192634873 14492 50.60: trcssl64: 005 CreateThread(currentid(4788) - child(3da4)) -> 2d4
+20200331192634875 14492 50.60: trcssl64: 008 CreateThread(3da4)
+20200331192634875 14492 50.60: trcssl64: 005 CreateThread(4788)
+20200331192634875 14492 50.60: trcssl64: 008 CreateThread(currentid(3da4) - child(5dbc)) -> 354
+20200331192634876 14492 50.60: trcssl64: 005 CreateThread(currentid(4788) - child(15dc)) -> 35c
+20200331192634879 14492 50.60: trcssl64: 007 CreateThread(34d8)
+20200331192634879 14492 50.60: trcssl64: 007 CreateThread(currentid(34d8) - child(6870)) -> 36c
+20200331192634885 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192634885 14492 50.60: trcssl64: 007 WSACreateEvent() -> 388
+20200331192634890 14492 50.60: trcssl64: 006 CreateThread(1334)
+20200331192634890 14492 50.60: trcssl64: 006 CreateThread(currentid(1334) - child(2248)) -> 3e0
+20200331192634902 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634903 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3204)) -> d34
+20200331192634914 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192634914 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3854)) -> dc0
+20200331192634993 26012 50.60: trcssl64: 026 WSASocketW -> f08
+20200331192634993 26012 50.60: trcssl64: 026 WSASocketW
+20200331192634993 26012 50.60: trcssl64: 026 f08: closesocket() -> 0
+20200331192634996 26012 50.60: trcssl64: 045 WSASocketW -> f1c
+20200331192634996 26012 50.60: trcssl64: 045 WSASocketW
+20200331192634999 26012 50.60: trcssl64: 045 WSACloseEvent(994)
+20200331192635000 26012 50.60: trcssl64: 045 WSACloseEvent() -> 1
+20200331192635021 14492 50.60: trcssl64: 007 WSASocketW -> 3d4
+20200331192635021 14492 50.60: trcssl64: 007 WSASocketW
+20200331192635021 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192635023 14492 50.60: trcssl64: 007 WSACreateEvent() -> 410
+20200331192635023 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192635024 14492 50.60: trcssl64: 007 WSACreateEvent() -> 3fc
+20200331192635027 14492 50.60: trcssl64: 007 3d4: connect(,d2fe1fdf38:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192635027 14492 50.60: trcssl64: 007 3d4: closesocket() -> 0
+20200331192635027 14492 50.60: trcssl64: 007 WSACloseEvent(410)
+20200331192635028 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192635029 14492 50.60: trcssl64: 007 WSACloseEvent(3fc)
+20200331192635030 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192635033 14492 50.60: trcssl64: 007 CreateThread(34d8)
+20200331192635033 14492 50.60: trcssl64: 007 CreateThread(currentid(34d8) - child(5ac)) -> 414
+20200331192635035 14492 50.60: trcssl64: 010  getaddrinfo( TID: 15dc NAME( wpad)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192635036 14492 50.60: trcssl64: 010    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192635054 26012 50.60: trcssl64: 047 WSACreateEvent()
+20200331192635054 26012 50.60: trcssl64: 047 WSACreateEvent() -> 1028
+20200331192635055 26012 50.60: trcssl64: 047  GetAddrInfoExW( NAME( x.urs.microsoft.com) , SRV_NAME((NULL)),)
+20200331192635059 26012 50.60: trcssl64: 047 GetAddrInfoExW(,,,,) -> 3e5
+20200331192635060 26012 50.60: trcssl64: 047 WSACreateEvent()
+20200331192635062 26012 50.60: trcssl64: 047 WSACreateEvent() -> d30
+20200331192635063 26012 50.60: trcssl64: 047  GetAddrInfoExW( NAME( nav.smartscreen.microsoft.com) , SRV_NAME((NULL)),)
+20200331192635063 26012 50.60: trcssl64: 047 GetAddrInfoExW(,,,,) -> 3e5
+20200331192635064 26012 50.60: trcssl64: 047 WSASocketW -> ff4
+20200331192635064 26012 50.60: trcssl64: 047 WSASocketW
+20200331192635069 26012 50.60: trcssl64: 047 ff4: closesocket() -> 0
+20200331192635072 26012 50.60: trcssl64: 048 WSASocketW -> fb8
+20200331192635073 26012 50.60: trcssl64: 048 WSASocketW
+20200331192635074 26012 50.60: trcssl64: 048 WSACloseEvent(d30)
+20200331192635075 26012 50.60: trcssl64: 048 WSACloseEvent() -> 1
+20200331192635102 26012 50.60: trcssl64: 012 WSASocketW -> 109c
+20200331192635102 26012 50.60: trcssl64: 012 WSASocketW
+20200331192635102 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192635104 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1038
+20200331192635105 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192635106 26012 50.60: trcssl64: 012 WSACreateEvent() -> 10a8
+20200331192635107 26012 50.60: trcssl64: 012 109c: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22043308,1ca22043388,1ca220432b8,0)
+20200331192635109 26012 50.60: trcssl64: 012 109c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192635109 26012 50.60: trcssl64: 012 WSASocketW -> 10bc
+20200331192635110 26012 50.60: trcssl64: 012 WSASocketW
+20200331192635110 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192635116 26012 50.60: trcssl64: 012 WSACreateEvent() -> fc0
+20200331192635122 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192635123 26012 50.60: trcssl64: 012 WSACreateEvent() -> 10c8
+20200331192635125 26012 50.60: trcssl64: 012 10bc: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c13ba8,1ca22c13c28,1ca22c13b58,0)
+20200331192635126 26012 50.60: trcssl64: 012 10bc: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192635127 26012 50.60: trcssl64: 012 WSASocketW -> 10d4
+20200331192635128 26012 50.60: trcssl64: 012 WSASocketW
+20200331192635128 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192635129 26012 50.60: trcssl64: 012 WSACreateEvent() -> fb0
+20200331192635129 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192635130 26012 50.60: trcssl64: 012 WSACreateEvent() -> 10d8
+20200331192635130 26012 50.60: trcssl64: 012 10d4: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca220434d8,1ca22043558,1ca22043488,0)
+20200331192635131 26012 50.60: trcssl64: 012 10d4: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192635132 26012 50.60: trcssl64: 012 109c: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca220432d8,0)
+20200331192635132 26012 50.60: trcssl64: 012 109c: WSASendTo(,,,,,,,,) -> 0
+20200331192635133 26012 50.60: trcssl64: 012 WSAResetEvent(10a8)
+20200331192635137 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192635138 26012 50.60: trcssl64: 012 10bc: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c13b78,0)
+20200331192635138 26012 50.60: trcssl64: 012 10bc: WSASendTo(,,,,,,,,) -> 0
+20200331192635139 26012 50.60: trcssl64: 012 WSAResetEvent(10c8)
+20200331192635139 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192635140 26012 50.60: trcssl64: 012 10d4: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca220434a8,0)
+20200331192635140 26012 50.60: trcssl64: 012 10d4: WSASendTo(,,,,,,,,) -> 0
+20200331192635141 26012 50.60: trcssl64: 012 WSAResetEvent(10d8)
+20200331192635141 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192635142 26012 50.60: trcssl64: 047 f1c: WSASend(,1ca21ab2150,1,b298fff438,0,1ca21ab2018,0)
+20200331192635142 26012 50.60: trcssl64: 047 f1c: WSASend(,,,,,,) -> 0
+20200331192635227 26012 50.60: trcssl64: 047 fb8: WSASend(,1ca21ab2150,1,b298fff438,0,1ca21ab2018,0)
+20200331192635227 26012 50.60: trcssl64: 047 fb8: WSASend(,,,,,,) -> 0
+20200331192635231 26012 50.60: trcssl64: 044 WSASocketW -> 11b0
+20200331192635231 26012 50.60: trcssl64: 044 WSASocketW
+20200331192635233 26012 50.60: trcssl64: 044 11b0: closesocket() -> 0
+20200331192635235 26012 50.60: trcssl64: 047 WSASocketW -> 11b4
+20200331192635236 26012 50.60: trcssl64: 047 WSASocketW
+20200331192635239 26012 50.60: trcssl64: 047 WSACloseEvent(1028)
+20200331192635244 26012 50.60: trcssl64: 047 WSACloseEvent() -> 1
+20200331192635393 26012 50.60: trcssl64: 047 11b4: WSASend(,1ca21ab25a0,1,b298fff438,0,1ca21ab2468,0)
+20200331192635393 26012 50.60: trcssl64: 047 11b4: WSASend(,,,,,,) -> 0
+20200331192635592 26012 50.60: trcssl64: 047 fb8: WSASend(,1ca21ab2710,1,b298fff498,0,1ca21ab25d8,0)
+20200331192635592 26012 50.60: trcssl64: 047 fb8: WSASend(,,,,,,) -> 0
+20200331192635618 26012 50.60: trcssl64: 047 CreateThread(574c)
+20200331192635618 26012 50.60: trcssl64: 047 CreateThread(currentid(574c) - child(34e8)) -> 137c
+20200331192635625 26012 50.60: trcssl64: 047 1ca22789f30: EncryptMessage(0,98fff368,0)
+20200331192635625 26012 50.60: trcssl64: 047   1ca22789f30:  Type=00000001 Size=395
+20200331192635625 26012 50.60: trcssl64: 047   1ca22789f30:   POST /api/browser/edge/navigate/1/sync HTTP/1.1\r\n
+20200331192635625 26012 50.60: trcssl64: 047   1ca22789f30:   Connection: Keep-Alive\r\n
+20200331192635625 26012 50.60: trcssl64: 047   1ca22789f30:   Content-Type: application/json; charset=utf-8\r\n
+20200331192635626 26012 50.60: trcssl64: 047   1ca22789f30:   Authorization: SmartScreenHash eyJhdXRoSWQiOiIzODFkZGQxZS1lNjAwLTQyZGUtOTRlZC04Y
+20200331192635626 26012 50.60: trcssl64: 047   1ca22789f30:   zM0YmY3M2YxNmQiLCJoYXNoIjoiNFJTQkRkNkw0cUU9Iiwia2V5IjoibnFaVjNhWFJVeHJpOSs0d1VKe
+20200331192635627 26012 50.60: trcssl64: 047   1ca22789f30:   TRFQT09In0=\r\n
+20200331192635627 26012 50.60: trcssl64: 047   1ca22789f30:   User-Agent: SmartScreen/281479396982785\r\n
+20200331192635627 26012 50.60: trcssl64: 047   1ca22789f30:   Content-Length: 1151\r\n
+20200331192635628 26012 50.60: trcssl64: 047   1ca22789f30:   Host: nav.smartscreen.microsoft.com\r\n
+20200331192635630 26012 50.60: trcssl64: 047   1ca22789f30:   \r\n
+20200331192635630 26012 50.60: trcssl64: 047 1ca22789f30: EncryptMessage(,) -> 0
+20200331192635631 26012 50.60: trcssl64: 047 fb8: WSASend(,1ca226a7ab0,1,b298fff398,0,1ca226a7978,0)
+20200331192635631 26012 50.60: trcssl64: 047 fb8: WSASend(,,,,,,) -> 0
+20200331192635632 26012 50.60: trcssl64: 044 1ca22789f30: EncryptMessage(0,95ffee68,0)
+20200331192635632 26012 50.60: trcssl64: 044   1ca22789f30:  Type=00000001 Size=1151
+20200331192635633 26012 50.60: trcssl64: 044   1ca22789f30:   {"config":{"device":{"appControl":{"level":"anywhere"},"appReputation":{"enforce
+20200331192635633 26012 50.60: trcssl64: 044   1ca22789f30:   dByPolicy":false,"level":"warn"},"pua":null},"user":{"uriReputation":{"enforcedB
+20200331192635634 26012 50.60: trcssl64: 044   1ca22789f30:   yPolicy":false,"level":"warn"}}},"correlationId":"084559D6-F449-4C70-B6AA-96D03C
+20200331192635634 26012 50.60: trcssl64: 044   1ca22789f30:   6EACC9","destination":{"ip":"93.184.216.34","uri":"https://www.example.com/"},"f
+20200331192635635 26012 50.60: trcssl64: 044   1ca22789f30:   orceServiceDetermination":false,"identity":{"caller":{"locale":"en-US"},"client"
+20200331192635636 26012 50.60: trcssl64: 044   1ca22789f30:   :{"data":{"customSettings":"F95BA787499AB4FA9EFFF472CE383A14","customSynchronous
+20200331192635636 26012 50.60: trcssl64: 044   1ca22789f30:   LookupUris":"0","edgeSettings":"1.0-5abfbe7cfad552badaf691e9fc66d8038f212a9bdd78
+20200331192635636 26012 50.60: trcssl64: 044   1ca22789f30:   39199adb04a83e146ec6","synchronousLookupUris":"637212787540459622","topTraffic":
+20200331192635637 26012 50.60: trcssl64: 044   1ca22789f30:   "319729430708873239333501969648228053463"},"version":"281479396982785"},"device"
+20200331192635637 26012 50.60: trcssl64: 044   1ca22789f30:   :{"architecture":9,"browser":{"internetExplorer":"9.11.18362.0"},"cloudSku":fals
+20200331192635638 26012 50.60: trcssl64: 044   1ca22789f30:   e,"enterprise":null,"family":3,"locale":"en-US","netJoinStatus":2,"osVersion":"1
+20200331192635640 26012 50.60: trcssl64: 044   1ca22789f30:   0.0.18362.720.19h1_release"},"user":{"locale":"en-US"}},"referrer":null,"serverC
+20200331192635641 26012 50.60: trcssl64: 044   1ca22789f30:   ontext":null,"synchronous":true,"type":"top","userAgent":"Mozilla/5.0 (Windows N
+20200331192635642 26012 50.60: trcssl64: 044   1ca22789f30:   T 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149
+20200331192635642 26012 50.60: trcssl64: 044   1ca22789f30:   Safari/537.36 Edg/80.0.361.69"}
+20200331192635643 26012 50.60: trcssl64: 044 1ca22789f30: EncryptMessage(,) -> 0
+20200331192635643 26012 50.60: trcssl64: 044 fb8: WSASend(,1ca226a81e0,1,b295ffee98,0,1ca226a80a8,0)
+20200331192635643 26012 50.60: trcssl64: 044 fb8: WSASend(,,,,,,) -> 0
+20200331192635756 26012 50.60: trcssl64: 047 11b4: WSASend(,1ca226a81e0,1,b298fff498,0,1ca226a80a8,0)
+20200331192635756 26012 50.60: trcssl64: 047 11b4: WSASend(,,,,,,) -> 0
+20200331192635759 26012 50.60: trcssl64: 047 1ca22786dc0: EncryptMessage(0,98fff368,0)
+20200331192635759 26012 50.60: trcssl64: 047   1ca22786dc0:  Type=00000001 Size=278
+20200331192635759 26012 50.60: trcssl64: 047   1ca22786dc0:   POST /ssrs.asmx?MSURS-Client-Key=%66%47%51%71%4e%64%5a%71%4b%42%4c%44%55%71%2b%7
+20200331192635760 26012 50.60: trcssl64: 047   1ca22786dc0:   5%61%39%30%67%67%67%3d%3d&MSURS-MAC=%31%51%76%78%57%7a%71%7a%77%4f%55%3d HTTP/1.
+20200331192635761 26012 50.60: trcssl64: 047   1ca22786dc0:   1\r\n
+20200331192635761 26012 50.60: trcssl64: 047   1ca22786dc0:   Connection: Keep-Alive\r\n
+20200331192635761 26012 50.60: trcssl64: 047   1ca22786dc0:   User-Agent: SmartScreen/281479396982785\r\n
+20200331192635762 26012 50.60: trcssl64: 047   1ca22786dc0:   Content-Length: 274\r\n
+20200331192635762 26012 50.60: trcssl64: 047   1ca22786dc0:   Host: x.urs.microsoft.com\r\n
+20200331192635762 26012 50.60: trcssl64: 047   1ca22786dc0:   \r\n
+20200331192635763 26012 50.60: trcssl64: 047 1ca22786dc0: EncryptMessage(,) -> 0
+20200331192635763 26012 50.60: trcssl64: 047 11b4: WSASend(,1ca21ab2710,1,b298fff398,0,1ca21ab25d8,0)
+20200331192635764 26012 50.60: trcssl64: 047 11b4: WSASend(,,,,,,) -> 0
+20200331192635764 26012 50.60: trcssl64: 044 1ca22786dc0: EncryptMessage(0,95ffee68,0)
+20200331192635765 26012 50.60: trcssl64: 044   1ca22786dc0:  Type=00000001 Size=274
+20200331192635765 26012 50.60: trcssl64: 044   1ca22786dc0:   <Rep v="3"><G>{379BDC39-D58D-44AA-986B-FD2CBFFA75A6}</G><ID>{3577E9B1-CCA1-4CA3-
+20200331192635766 26012 50.60: trcssl64: 044   1ca22786dc0:   8C69-B6C27D3B289C}</ID><C>Anaheim</C><OS>10.0.18362.720</OS><L>en-US</L><W>0</W>
+20200331192635771 26012 50.60: trcssl64: 044   1ca22786dc0:   <I>{084559D6-F449-4C70-B6AA-96D03C6EACC9}</I><R><Rq><U>aHR0cHM6Ly93d3cuZXhhbXBsZ
+20200331192635771 26012 50.60: trcssl64: 044   1ca22786dc0:   S5jb20=</U><T>T</T></Rq></R></Rep>
+20200331192635772 26012 50.60: trcssl64: 044 1ca22786dc0: EncryptMessage(,) -> 0
+20200331192635772 26012 50.60: trcssl64: 044 11b4: WSASend(,1ca21a88e70,1,b295ffee98,0,1ca21a88d38,0)
+20200331192635773 26012 50.60: trcssl64: 044 11b4: WSASend(,,,,,,) -> 0
+20200331192635819 26012 50.60: trcssl64: 047 1ca22789f30: DecryptMessage(98fff458,0,0)
+20200331192635819 26012 50.60: trcssl64: 047   1ca22789f30:  Type=00000001 Size=627
+20200331192635819 26012 50.60: trcssl64: 047   1ca22789f30:   HTTP/1.1 200 OK\r\n
+20200331192635820 26012 50.60: trcssl64: 047   1ca22789f30:   Cache-Control: max-age=0, private\r\n
+20200331192635820 26012 50.60: trcssl64: 047   1ca22789f30:   Content-Length: 362\r\n
+20200331192635821 26012 50.60: trcssl64: 047   1ca22789f30:   Content-Type: application/json; charset=utf-8\r\n
+20200331192635822 26012 50.60: trcssl64: 047   1ca22789f30:   Server: Microsoft-HTTPAPI/2.0\r\n
+20200331192635822 26012 50.60: trcssl64: 047   1ca22789f30:   X-SmartScreen-Flight-Vector: serve-wdsi-fbu-to-anaheim\r\n
+20200331192635823 26012 50.60: trcssl64: 047   1ca22789f30:   Date: Tue, 31 Mar 2020 19:26:35 GMT\r\n
+20200331192635823 26012 50.60: trcssl64: 047   1ca22789f30:   Connection: close\r\n
+20200331192635823 26012 50.60: trcssl64: 047   1ca22789f30:   \r\n
+20200331192635824 26012 50.60: trcssl64: 047   1ca22789f30:   {"actions":[{"$type":"cache","key":{"uri":"www.example.com","inheritance":"none"
+20200331192635824 26012 50.60: trcssl64: 047   1ca22789f30:   },"maxAge":100800000000,"serverContext":"1;ca3796b9-65c1-a244-ab2a-bc5289ffa266;
+20200331192635824 26012 50.60: trcssl64: 047   1ca22789f30:   PHSH:000;7E-05","responseCategory":"Allowed","result":{"$type":"allow"}}],"serve
+20200331192635825 26012 50.60: trcssl64: 047   1ca22789f30:   rContext":"1;ca3796b9-65c1-a244-ab2a-bc5289ffa266;PHSH:000;7E-05","responseCateg
+20200331192635825 26012 50.60: trcssl64: 047   1ca22789f30:   ory":"Allowed","result":{"$type":"allow"}}
+20200331192635826 26012 50.60: trcssl64: 047 1ca22789f30: DecryptMessage(,) -> 0
+20200331192635826 26012 50.60: trcssl64: 047 1ca22789f30: EncryptMessage(40000000,98ffeff8,0)
+20200331192635826 26012 50.60: trcssl64: 047   1ca22789f30:  Type=00000001 Size=2
+20200331192635827 26012 50.60: trcssl64: 047   1ca22789f30:   \x01\x00
+20200331192635827 26012 50.60: trcssl64: 047 1ca22789f30: EncryptMessage(,) -> 0
+20200331192635828 26012 50.60: trcssl64: 047 fb8: WSASend(,1ca22703450,1,b298fff028,0,1ca22703318,0)
+20200331192635828 26012 50.60: trcssl64: 047 fb8: WSASend(,,,,,,) -> 0
+20200331192635828 26012 50.60: trcssl64: 047 fb8: shutdown(,1)
+20200331192635829 26012 50.60: trcssl64: 047 fb8: shutdown(,) -> 0
+20200331192635832 26012 50.60: trcssl64: 047 fb8: WSARecv(,1ca231661d0,1,b298fff490,b298fff494,1ca23166098,0)
+20200331192635840 26012 50.60: trcssl64: 047 fb8: WSARecv(,,,,,,) -> 0
+20200331192635841 26012 50.60: trcssl64: 044 fb8: shutdown(,1)
+20200331192635841 26012 50.60: trcssl64: 044 fb8: shutdown(,) -> 0
+20200331192635842 26012 50.60: trcssl64: 044 fb8: closesocket() -> 0
+20200331192635939 26012 50.60: trcssl64: 047 1ca22786dc0: DecryptMessage(98fff458,0,0)
+20200331192635939 26012 50.60: trcssl64: 047   1ca22786dc0:  Type=00000001 Size=491
+20200331192635940 26012 50.60: trcssl64: 047   1ca22786dc0:   HTTP/1.1 200 OK\r\n
+20200331192635944 26012 50.60: trcssl64: 047   1ca22786dc0:   Cache-Control: max-age=0, private\r\n
+20200331192635946 26012 50.60: trcssl64: 047   1ca22786dc0:   Content-Length: 290\r\n
+20200331192635947 26012 50.60: trcssl64: 047   1ca22786dc0:   Content-Type: text/xml; charset=utf-8\r\n
+20200331192635948 26012 50.60: trcssl64: 047   1ca22786dc0:   Server: Microsoft-HTTPAPI/2.0\r\n
+20200331192635951 26012 50.60: trcssl64: 047   1ca22786dc0:   Date: Tue, 31 Mar 2020 19:26:35 GMT\r\n
+20200331192635957 26012 50.60: trcssl64: 047   1ca22786dc0:   Connection: close\r\n
+20200331192635958 26012 50.60: trcssl64: 047   1ca22786dc0:   \r\n
+20200331192635959 26012 50.60: trcssl64: 047   1ca22786dc0:   <Res>\r\n
+20200331192635961 26012 50.60: trcssl64: 047   1ca22786dc0:       <S>0</S>\r\n
+20200331192635962 26012 50.60: trcssl64: 047   1ca22786dc0:       <I>084559D6-F449-4C70-B6AA-96D03C6EACC9</I>\r\n
+20200331192635963 26012 50.60: trcssl64: 047   1ca22786dc0:       <W>637194112741176080</W>\r\n
+20200331192635964 26012 50.60: trcssl64: 047   1ca22786dc0:       <R>\r\n
+20200331192635972 26012 50.60: trcssl64: 047   1ca22786dc0:           <Rs>\r\n
+20200331192635973 26012 50.60: trcssl64: 047   1ca22786dc0:               <M>d3d3LmV4YW1wbGUuY29t</M>\r\n
+20200331192635973 26012 50.60: trcssl64: 047   1ca22786dc0:               <C>UNKN:100:0:0</C>\r\n
+20200331192635974 26012 50.60: trcssl64: 047   1ca22786dc0:               <T>1800</T>\r\n
+20200331192635976 26012 50.60: trcssl64: 047   1ca22786dc0:               \r\n
+20200331192635978 26012 50.60: trcssl64: 047   1ca22786dc0:               <X>0</X>\r\n
+20200331192635978 26012 50.60: trcssl64: 047   1ca22786dc0:           </Rs>\r\n
+20200331192635979 26012 50.60: trcssl64: 047   1ca22786dc0:       </R>\r\n
+20200331192635979 26012 50.60: trcssl64: 047   1ca22786dc0:   </Res>
+20200331192635980 26012 50.60: trcssl64: 047 1ca22786dc0: DecryptMessage(,) -> 0
+20200331192635981 26012 50.60: trcssl64: 047 1ca22786dc0: EncryptMessage(40000000,98ffeff8,0)
+20200331192635981 26012 50.60: trcssl64: 047   1ca22786dc0:  Type=00000001 Size=2
+20200331192635982 26012 50.60: trcssl64: 047   1ca22786dc0:   \x01\x00
+20200331192635983 26012 50.60: trcssl64: 047 1ca22786dc0: EncryptMessage(,) -> 0
+20200331192635983 26012 50.60: trcssl64: 047 11b4: WSASend(,1ca22797c30,1,b298fff028,0,1ca22797af8,0)
+20200331192635984 26012 50.60: trcssl64: 047 11b4: WSASend(,,,,,,) -> 0
+20200331192635985 26012 50.60: trcssl64: 047 11b4: shutdown(,1)
+20200331192635985 26012 50.60: trcssl64: 047 11b4: shutdown(,) -> 0
+20200331192635986 26012 50.60: trcssl64: 047 11b4: WSARecv(,1ca22799780,1,b298fff490,b298fff494,1ca22799648,0)
+20200331192635986 26012 50.60: trcssl64: 047 11b4: WSARecv(,,,,,,) -> 0
+20200331192635987 26012 50.60: trcssl64: 044 11b4: shutdown(,1)
+20200331192635989 26012 50.60: trcssl64: 044 11b4: shutdown(,) -> 0
+20200331192635990 26012 50.60: trcssl64: 044 11b4: closesocket() -> 0
+20200331192636020 14492 50.60: trcssl64: 008  getaddrinfo( TID: 3da4 NAME( edge.microsoft.com)  , SRV_NAME((NULL)), (PADDR 30))
+20200331192636020 14492 50.60: trcssl64: 008    GetAddrInfoW( NAME( edge.microsoft.com) , SRV_NAME((NULL)),)
+20200331192636020 14492 50.60: trcssl64: 009 CreateThread(5dbc)
+20200331192636020 14492 50.60: trcssl64: 005 CreateThread(4788)
+20200331192636022 14492 50.60: trcssl64: 009 CreateThread(currentid(5dbc) - child(3418)) -> 480
+20200331192636022 14492 50.60: trcssl64: 016 CreateThread(3418)
+20200331192636022 14492 50.60: trcssl64: 005 CreateThread(currentid(4788) - child(640)) -> 430
+20200331192636022 14492 50.60: trcssl64: 008     WSASocketW -> 428
+20200331192636024 14492 50.60: trcssl64: 008     WSASocketW
+20200331192636023 14492 50.60: trcssl64: 017  getaddrinfo( TID: 640 NAME( edge.activity.windows.com)  , SRV_NAME((NULL)), (PADDR 400))
+20200331192636023 14492 50.60: trcssl64: 005  getaddrinfo( TID: 4788 NAME( me.kis.v2.scr.kaspersky-labs.com)  , SRV_NAME((NULL)), (PADDR 0))
+20200331192636023 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( www.bing.com)  , SRV_NAME((NULL)), (PADDR 4ea60000))
+20200331192636023 14492 50.60: trcssl64: 016 CreateThread(currentid(3418) - child(71c4)) -> 494
+20200331192636026 14492 50.60: trcssl64: 008     428: closesocket() -> 0
+20200331192636026 14492 50.60: trcssl64: 017    GetAddrInfoW( NAME( edge.activity.windows.com) , SRV_NAME((NULL)),)
+20200331192636026 14492 50.60: trcssl64: 005    GetAddrInfoW( NAME( me.kis.v2.scr.kaspersky-labs.com) , SRV_NAME((NULL)),)
+20200331192636027 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( www.bing.com) , SRV_NAME((NULL)),)
+20200331192636027 14492 50.60: trcssl64: 016  getaddrinfo( TID: 3418 NAME( www.example.com)  , SRV_NAME((NULL)), (PADDR 0))
+20200331192636028 14492 50.60: trcssl64: 016    GetAddrInfoW( NAME( www.example.com) , SRV_NAME((NULL)),)
+20200331192636028 14492 50.60: trcssl64: 017     WSASocketW -> 428
+20200331192636029 14492 50.60: trcssl64: 017     WSASocketW
+20200331192636028 14492 50.60: trcssl64: 009     WSASocketW -> 4b4
+20200331192636030 14492 50.60: trcssl64: 009     WSASocketW
+20200331192636029 14492 50.60: trcssl64: 016     WSASocketW -> 4dc
+20200331192636030 14492 50.60: trcssl64: 016     WSASocketW
+20200331192636029 14492 50.60: trcssl64: 017     428: closesocket() -> 0
+20200331192636027 14492 50.60: trcssl64: 008   GetAddrInfoW(,,,,) -> 0
+20200331192636030 14492 50.60: trcssl64: 009     4b4: closesocket() -> 0
+20200331192636028 14492 50.60: trcssl64: 005     WSASocketW -> 4b8
+20200331192636035 14492 50.60: trcssl64: 005     WSASocketW
+20200331192636031 14492 50.60: trcssl64: 017   GetAddrInfoW(,,,,) -> 0
+20200331192636037 14492 50.60: trcssl64: 017   IPv4 address 29a4aa531d0 52.157.234.37
+20200331192636037 14492 50.60: trcssl64: 017 getaddrinfo(,,,,) -> 0
+20200331192636030 14492 50.60: trcssl64: 016     4dc: closesocket() -> 0
+20200331192636036 14492 50.60: trcssl64: 005     4b8: closesocket() -> 0
+20200331192636039 14492 50.60: trcssl64: 005   GetAddrInfoW(,,,,) -> 0
+20200331192636035 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 0
+20200331192636038 14492 50.60: trcssl64: 016   GetAddrInfoW(,,,,) -> 0
+20200331192636038 14492 50.60: trcssl64: 007 WSASocketW -> 4b8
+20200331192636041 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636039 14492 50.60: trcssl64: 005   IPv4 address 29a4aa52b90 185.85.13.154
+20200331192636042 14492 50.60: trcssl64: 005 getaddrinfo(,,,,) -> 0
+20200331192636040 14492 50.60: trcssl64: 016   IPv4 address 29a4aa52dd0 93.184.216.34
+20200331192636034 14492 50.60: trcssl64: 008   IPv4 address 29a4aa3c630 13.107.6.158
+20200331192636043 14492 50.60: trcssl64: 008 getaddrinfo(,,,,) -> 0
+20200331192636040 14492 50.60: trcssl64: 009   IPv4 address 29a4aa52b50 204.79.197.200
+20200331192636046 14492 50.60: trcssl64: 009   IPv4 address 29a4aa52b70 13.107.21.200
+20200331192636041 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636047 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4dc
+20200331192636047 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 0
+20200331192636042 14492 50.60: trcssl64: 016 getaddrinfo(,,,,) -> 0
+20200331192636047 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636049 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4b4
+20200331192636049 14492 50.60: trcssl64: 007 CreateThread(34d8)
+20200331192636049 14492 50.60: trcssl64: 007 CreateThread(currentid(34d8) - child(4258)) -> 4e8
+20200331192636050 14492 50.60: trcssl64: 007 4b8: connect(,d2fe1fe8e0:52.157.234.37:443,10) -> ffffffff [10035]
+20200331192636050 14492 50.60: trcssl64: 007 WSASocketW -> 4ec
+20200331192636051 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636051 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636052 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4f0
+20200331192636052 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636053 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4f4
+20200331192636055 14492 50.60: trcssl64: 007 4ec: connect(,d2fe1fe8e0:185.85.13.154:443,10) -> ffffffff [10035]
+20200331192636055 14492 50.60: trcssl64: 007 WSASocketW -> 4fc
+20200331192636056 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636056 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636056 14492 50.60: trcssl64: 007 WSACreateEvent() -> 500
+20200331192636057 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636057 14492 50.60: trcssl64: 007 WSACreateEvent() -> 504
+20200331192636057 14492 50.60: trcssl64: 007 4fc: connect(,d2fe1fe8e0:13.107.6.158:443,10) -> ffffffff [10035]
+20200331192636058 14492 50.60: trcssl64: 007 WSASocketW -> 50c
+20200331192636058 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636059 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636059 14492 50.60: trcssl64: 007 WSACreateEvent() -> 510
+20200331192636059 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636060 14492 50.60: trcssl64: 007 WSACreateEvent() -> 514
+20200331192636060 14492 50.60: trcssl64: 007 50c: connect(,d2fe1fe8e0:204.79.197.200:443,10) -> ffffffff [10035]
+20200331192636060 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,4f0,d2fe1ff1b8)
+20200331192636061 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,,) -> 0
+20200331192636061 14492 50.60: trcssl64: 007 4ec: recv(,d2fe1fef17,1,2)
+20200331192636062 14492 50.60: trcssl64: 007 4ec: recv(,d2fe1fef17,,) -> ffffffff
+20200331192636062 14492 50.60: trcssl64: 007 4ec: recv(,d2fe1fe9c7,1,2)
+20200331192636062 14492 50.60: trcssl64: 007 4ec: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192636063 14492 50.60: trcssl64: 007 4ec: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4e961e90,0)
+20200331192636063 14492 50.60: trcssl64: 007 4ec: WSASend(,,,,,,) -> 0
+20200331192636063 14492 50.60: trcssl64: 007 WSAResetEvent(4f4)
+20200331192636064 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636067 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,4400,0)
+20200331192636068 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,,) -> ffffffff
+20200331192636068 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,500,d2fe1ff1b8)
+20200331192636069 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,,) -> 0
+20200331192636069 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fef17,1,2)
+20200331192636069 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fef17,,) -> ffffffff
+20200331192636070 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fe9c7,1,2)
+20200331192636070 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192636070 14492 50.60: trcssl64: 007 4fc: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4e9613e0,0)
+20200331192636071 14492 50.60: trcssl64: 007 4fc: WSASend(,,,,,,) -> 0
+20200331192636071 14492 50.60: trcssl64: 007 WSAResetEvent(504)
+20200331192636071 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636072 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea31190,4400,0)
+20200331192636072 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea31190,,) -> ffffffff
+20200331192636073 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,510,d2fe1ff1b8)
+20200331192636073 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636073 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fef17,1,2)
+20200331192636074 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fef17,,) -> ffffffff
+20200331192636074 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fe9c7,1,2)
+20200331192636074 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192636075 14492 50.60: trcssl64: 007 50c: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4e961510,0)
+20200331192636075 14492 50.60: trcssl64: 007 50c: WSASend(,,,,,,) -> 0
+20200331192636076 14492 50.60: trcssl64: 007 WSAResetEvent(514)
+20200331192636078 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636079 14492 50.60: trcssl64: 007 50c: recv(,29a4ea31190,4400,0)
+20200331192636079 14492 50.60: trcssl64: 007 50c: recv(,29a4ea31190,,) -> ffffffff
+20200331192636080 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,4f0,d2fe1ff1c0)
+20200331192636080 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,,) -> 0
+20200331192636080 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,4400,0)
+20200331192636081 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,,) -> 922
+20200331192636103 14492 50.60: trcssl64: 016 CreateThread(3418)
+20200331192636103 14492 50.60: trcssl64: 016 CreateThread(currentid(3418) - child(56e0)) -> 6c0
+20200331192636105 14492 50.60: trcssl64: 007 4ec: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4e961e90,0)
+20200331192636106 14492 50.60: trcssl64: 007 4ec: WSASend(,,,,,,) -> 0
+20200331192636106 14492 50.60: trcssl64: 007 WSAResetEvent(4f4)
+20200331192636107 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636107 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,4400,0)
+20200331192636108 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,,) -> 9e
+20200331192636108 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,4400,0)
+20200331192636108 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,,) -> ffffffff
+20200331192636109 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,4f0,d2fe1ff1c0)
+20200331192636109 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,,) -> 0
+20200331192636110 14492 50.60: trcssl64: 007 4ec: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961e90,0)
+20200331192636111 14492 50.60: trcssl64: 007 4ec: WSASend(,,,,,,) -> 0
+20200331192636111 14492 50.60: trcssl64: 007 WSAResetEvent(4f4)
+20200331192636112 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636112 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,4f0,d2fe1ff1c0)
+20200331192636112 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,,) -> 0
+20200331192636113 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,4400,0)
+20200331192636113 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,,) -> 44
+20200331192636114 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,4400,0)
+20200331192636117 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea31190,,) -> ffffffff
+20200331192636118 14492 50.60: trcssl64: 007 4ec: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961e90,0)
+20200331192636119 14492 50.60: trcssl64: 007 4ec: WSASend(,,,,,,) -> 0
+20200331192636119 14492 50.60: trcssl64: 007 WSAResetEvent(4f4)
+20200331192636119 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636120 14492 50.60: trcssl64: 007 4ec: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961e90,0)
+20200331192636120 14492 50.60: trcssl64: 007 4ec: WSASend(,,,,,,) -> 0
+20200331192636120 14492 50.60: trcssl64: 007 WSAResetEvent(4f4)
+20200331192636121 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636121 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,4f0,d2fe1ff1c0)
+20200331192636122 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,,) -> 0
+20200331192636122 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636122 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 4400
+20200331192636123 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636124 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 4400
+20200331192636124 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636124 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 4400
+20200331192636124 14492 50.60: trcssl64: 007 WSASocketW -> 6fc
+20200331192636124 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636125 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636125 14492 50.60: trcssl64: 007 WSACreateEvent() -> 700
+20200331192636125 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636126 14492 50.60: trcssl64: 007 WSACreateEvent() -> 6c4
+20200331192636129 14492 50.60: trcssl64: 007 6fc: connect(,d2fe1fd6c8:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192636129 14492 50.60: trcssl64: 007 6fc: closesocket() -> 0
+20200331192636130 14492 50.60: trcssl64: 007 WSACloseEvent(700)
+20200331192636130 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192636130 14492 50.60: trcssl64: 007 WSACloseEvent(6c4)
+20200331192636131 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192636131 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636132 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 4400
+20200331192636133 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636133 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 4400
+20200331192636134 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636134 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 4400
+20200331192636135 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,4400,0)
+20200331192636135 14492 50.60: trcssl64: 007 4ec: recv(,29a4ea6f1f0,,) -> 322a
+20200331192636136 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,500,d2fe1ff1c0)
+20200331192636136 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,,) -> 0
+20200331192636136 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,4400,0)
+20200331192636137 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,,) -> 85e
+20200331192636137 14492 50.60: trcssl64: 007 4ec: recv(,29a4eac6360,4400,0)
+20200331192636138 14492 50.60: trcssl64: 007 4ec: recv(,29a4eac6360,,) -> ffffffff
+20200331192636141 14492 50.60: trcssl64: 007 4fc: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4e9613e0,0)
+20200331192636141 14492 50.60: trcssl64: 007 4fc: WSASend(,,,,,,) -> 0
+20200331192636141 14492 50.60: trcssl64: 007 WSAResetEvent(504)
+20200331192636141 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636142 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,4f0,d2fe1ff1c0)
+20200331192636142 14492 50.60: trcssl64: 007 4ec: WSAEnumNetworkEvents(,,) -> 0
+20200331192636143 26012 50.60: trcssl64: 012 109c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca220432d8,0)
+20200331192636143 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,4400,0)
+20200331192636143 26012 50.60: trcssl64: 012 109c: WSASendTo(,,,,,,,,) -> 0
+20200331192636144 26012 50.60: trcssl64: 012 WSAResetEvent(10a8)
+20200331192636144 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192636145 26012 50.60: trcssl64: 012 10bc: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c13b78,0)
+20200331192636145 26012 50.60: trcssl64: 012 10bc: WSASendTo(,,,,,,,,) -> 0
+20200331192636145 26012 50.60: trcssl64: 012 WSAResetEvent(10c8)
+20200331192636143 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,,) -> 91
+20200331192636144 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fedc7,1,2)
+20200331192636146 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192636147 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fedc7,,) -> ffffffff
+20200331192636146 26012 50.60: trcssl64: 012 10d4: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca220434a8,0)
+20200331192636147 26012 50.60: trcssl64: 012 10d4: WSASendTo(,,,,,,,,) -> 0
+20200331192636147 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fea17,1,2)
+20200331192636148 26012 50.60: trcssl64: 012 WSAResetEvent(10d8)
+20200331192636148 14492 50.60: trcssl64: 007 4fc: recv(,d2fe1fea17,,) -> ffffffff
+20200331192636149 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192636153 14492 50.60: trcssl64: 007 4fc: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e9613e0,0)
+20200331192636155 14492 50.60: trcssl64: 007 4fc: WSASend(,,,,,,) -> 0
+20200331192636156 14492 50.60: trcssl64: 007 WSAResetEvent(504)
+20200331192636157 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636158 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,4400,0)
+20200331192636158 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,,) -> 26
+20200331192636158 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,4400,0)
+20200331192636159 14492 50.60: trcssl64: 007 4fc: recv(,29a4ea6f1f0,,) -> ffffffff
+20200331192636159 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,510,d2fe1ff1c0)
+20200331192636160 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636160 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,4400,0)
+20200331192636160 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,,) -> dae
+20200331192636160 14492 50.60: trcssl64: 007 4fc: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e9613e0,0)
+20200331192636160 14492 50.60: trcssl64: 007 4fc: WSASend(,,,,,,) -> 0
+20200331192636160 14492 50.60: trcssl64: 007 WSAResetEvent(504)
+20200331192636162 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636163 14492 50.60: trcssl64: 007 4fc: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e9613e0,0)
+20200331192636164 14492 50.60: trcssl64: 007 4fc: WSASend(,,,,,,) -> 0
+20200331192636165 14492 50.60: trcssl64: 007 WSAResetEvent(504)
+20200331192636167 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636167 14492 50.60: trcssl64: 007 4fc: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e9613e0,0)
+20200331192636168 14492 50.60: trcssl64: 007 4fc: WSASend(,,,,,,) -> 0
+20200331192636169 14492 50.60: trcssl64: 007 WSAResetEvent(504)
+20200331192636169 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636170 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,500,d2fe1ff1c0)
+20200331192636170 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,,) -> 0
+20200331192636171 14492 50.60: trcssl64: 007 50c: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4e961510,0)
+20200331192636171 14492 50.60: trcssl64: 007 50c: WSASend(,,,,,,) -> 0
+20200331192636171 14492 50.60: trcssl64: 007 WSAResetEvent(514)
+20200331192636172 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636174 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,4400,0)
+20200331192636174 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,,) -> 91
+20200331192636175 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fedc7,1,2)
+20200331192636175 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fedc7,,) -> ffffffff
+20200331192636175 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fea17,1,2)
+20200331192636176 14492 50.60: trcssl64: 007 50c: recv(,d2fe1fea17,,) -> ffffffff
+20200331192636176 14492 50.60: trcssl64: 007 50c: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961510,0)
+20200331192636177 14492 50.60: trcssl64: 007 50c: WSASend(,,,,,,) -> 0
+20200331192636177 14492 50.60: trcssl64: 007 WSAResetEvent(514)
+20200331192636177 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636178 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,4400,0)
+20200331192636178 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,,) -> 26
+20200331192636178 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,4400,0)
+20200331192636178 14492 50.60: trcssl64: 007 50c: recv(,29a4ea6f1f0,,) -> ffffffff
+20200331192636179 14492 50.60: trcssl64: 007 50c: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961510,0)
+20200331192636179 14492 50.60: trcssl64: 007 50c: WSASend(,,,,,,) -> 0
+20200331192636180 14492 50.60: trcssl64: 007 WSAResetEvent(514)
+20200331192636180 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636181 14492 50.60: trcssl64: 007 50c: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961510,0)
+20200331192636181 14492 50.60: trcssl64: 007 50c: WSASend(,,,,,,) -> 0
+20200331192636181 14492 50.60: trcssl64: 007 WSAResetEvent(514)
+20200331192636182 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636187 14492 50.60: trcssl64: 007 50c: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4e961510,0)
+20200331192636188 14492 50.60: trcssl64: 007 50c: WSASend(,,,,,,) -> 0
+20200331192636188 14492 50.60: trcssl64: 007 WSAResetEvent(514)
+20200331192636189 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636190 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,510,d2fe1ff1c0)
+20200331192636191 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636194 14492 50.60: trcssl64: 007 4b8: WSAEnumNetworkEvents(,4dc,d2fe1ff1b8)
+20200331192636194 14492 50.60: trcssl64: 007 4b8: WSAEnumNetworkEvents(,,) -> 0
+20200331192636194 14492 50.60: trcssl64: 007 4b8: recv(,d2fe1fef17,1,2)
+20200331192636195 14492 50.60: trcssl64: 007 4b8: recv(,d2fe1fef17,,) -> ffffffff
+20200331192636198 14492 50.60: trcssl64: 007 4b8: recv(,d2fe1fe9c7,1,2)
+20200331192636199 14492 50.60: trcssl64: 007 4b8: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192636199 14492 50.60: trcssl64: 007 4b8: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4e961fc0,0)
+20200331192636200 14492 50.60: trcssl64: 007 4b8: WSASend(,,,,,,) -> 0
+20200331192636201 14492 50.60: trcssl64: 007 WSAResetEvent(4b4)
+20200331192636201 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636202 14492 50.60: trcssl64: 007 4b8: recv(,29a4eae8010,4400,0)
+20200331192636202 14492 50.60: trcssl64: 007 4b8: recv(,29a4eae8010,,) -> ffffffff
+20200331192636203 14492 50.60: trcssl64: 007 WSASocketW -> 70c
+20200331192636203 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636204 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636204 14492 50.60: trcssl64: 007 WSACreateEvent() -> 710
+20200331192636205 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636205 14492 50.60: trcssl64: 007 WSACreateEvent() -> 6e8
+20200331192636206 14492 50.60: trcssl64: 007 70c: connect(,d2fe1fa9d0:185.85.13.154:443,10) -> ffffffff [10035]
+20200331192636209 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,710,d2fe1ff1b8)
+20200331192636209 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636210 14492 50.60: trcssl64: 007 70c: recv(,d2fe1feec7,1,2)
+20200331192636210 14492 50.60: trcssl64: 007 70c: recv(,d2fe1feec7,,) -> ffffffff
+20200331192636211 14492 50.60: trcssl64: 007 70c: WSASend(,d2fe1fe648,1,d2fe1fe644,0,29a4ea5bac0,0)
+20200331192636211 14492 50.60: trcssl64: 007 70c: WSASend(,,,,,,) -> 0
+20200331192636211 14492 50.60: trcssl64: 007 WSAResetEvent(6e8)
+20200331192636212 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636212 14492 50.60: trcssl64: 007 70c: recv(,29a4eae8010,4400,0)
+20200331192636213 14492 50.60: trcssl64: 007 70c: recv(,29a4eae8010,,) -> ffffffff
+20200331192636222 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,710,d2fe1ff1c0)
+20200331192636222 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636222 14492 50.60: trcssl64: 007 70c: recv(,29a4eaba470,4400,0)
+20200331192636222 14492 50.60: trcssl64: 007 70c: recv(,29a4eaba470,,) -> 919
+20200331192636223 14492 50.60: trcssl64: 007 70c: WSASend(,d2fe1fea18,1,d2fe1fea14,0,29a4ea5bac0,0)
+20200331192636223 14492 50.60: trcssl64: 007 70c: WSASend(,,,,,,) -> 0
+20200331192636224 14492 50.60: trcssl64: 007 WSAResetEvent(6e8)
+20200331192636224 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636224 14492 50.60: trcssl64: 007 70c: recv(,29a4eaba470,4400,0)
+20200331192636225 14492 50.60: trcssl64: 007 70c: recv(,29a4eaba470,,) -> 9e
+20200331192636225 14492 50.60: trcssl64: 007 70c: recv(,29a4eaba470,4400,0)
+20200331192636226 14492 50.60: trcssl64: 007 70c: recv(,29a4eaba470,,) -> ffffffff
+20200331192636226 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,710,d2fe1ff1c0)
+20200331192636227 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636227 14492 50.60: trcssl64: 007 70c: WSASend(,d2fe1fe758,1,d2fe1fe754,0,29a4ea5bac0,0)
+20200331192636227 14492 50.60: trcssl64: 007 70c: WSASend(,,,,,,) -> 0
+20200331192636228 14492 50.60: trcssl64: 007 WSAResetEvent(6e8)
+20200331192636228 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636229 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,710,d2fe1ff1c0)
+20200331192636229 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636229 14492 50.60: trcssl64: 007 70c: recv(,29a4eaec280,4400,0)
+20200331192636230 14492 50.60: trcssl64: 007 70c: recv(,29a4eaec280,,) -> 138
+20200331192636231 14492 50.60: trcssl64: 007 70c: recv(,d2fe1fe4d7,1,2)
+20200331192636234 14492 50.60: trcssl64: 007 70c: recv(,d2fe1fe4d7,,) -> ffffffff
+20200331192636235 14492 50.60: trcssl64: 007 70c: recv(,29a4eb0c240,4400,0)
+20200331192636235 14492 50.60: trcssl64: 007 70c: recv(,29a4eb0c240,,) -> ffffffff
+20200331192636237 14492 50.60: trcssl64: 007 70c: WSASend(,d2fe1fda98,1,d2fe1fda94,0,29a4ea5bac0,0)
+20200331192636237 14492 50.60: trcssl64: 007 70c: WSASend(,,,,,,) -> 0
+20200331192636237 14492 50.60: trcssl64: 007 WSAResetEvent(6e8)
+20200331192636237 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636238 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,710,d2fe1ff1c0)
+20200331192636238 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636238 14492 50.60: trcssl64: 007 70c: recv(,29a4eb0c240,4400,0)
+20200331192636239 14492 50.60: trcssl64: 007 70c: recv(,29a4eb0c240,,) -> 3c9
+20200331192636239 14492 50.60: trcssl64: 007 70c: recv(,29a4eb0c240,4400,0)
+20200331192636240 14492 50.60: trcssl64: 007 70c: recv(,29a4eb0c240,,) -> ffffffff
+20200331192636268 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,500,d2fe1ff1c0)
+20200331192636268 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,,) -> 0
+20200331192636268 14492 50.60: trcssl64: 007 4fc: recv(,29a4eb0c240,4400,0)
+20200331192636269 14492 50.60: trcssl64: 007 4fc: recv(,29a4eb0c240,,) -> 102
+20200331192636270 14492 50.60: trcssl64: 007 4fc: recv(,29a4eb0f7a0,4400,0)
+20200331192636270 14492 50.60: trcssl64: 007 4fc: recv(,29a4eb0f7a0,,) -> ffffffff
+20200331192636302 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,510,d2fe1ff1c0)
+20200331192636302 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,,) -> 0
+20200331192636302 14492 50.60: trcssl64: 007 50c: recv(,29a4eb0c240,4400,0)
+20200331192636303 14492 50.60: trcssl64: 007 50c: recv(,29a4eb0c240,,) -> 434
+20200331192636303 14492 50.60: trcssl64: 007 50c: recv(,29a4eb0c240,4400,0)
+20200331192636303 14492 50.60: trcssl64: 007 50c: recv(,29a4eb0c240,,) -> ffffffff
+20200331192636353 14492 50.60: trcssl64: 007 4b8: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192636353 14492 50.60: trcssl64: 007 4b8: WSAEnumNetworkEvents(,,) -> 0
+20200331192636354 14492 50.60: trcssl64: 007 4b8: recv(,29a4eb0c240,4400,0)
+20200331192636355 14492 50.60: trcssl64: 007 4b8: recv(,29a4eb0c240,,) -> 1610
+20200331192636355 14492 50.60: trcssl64: 007 4b8: recv(,29a4eb0c240,4400,0)
+20200331192636356 14492 50.60: trcssl64: 007 4b8: recv(,29a4eb0c240,,) -> ffffffff
+20200331192636368 14492 50.60: trcssl64: 007 4b8: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192636369 14492 50.60: trcssl64: 007 4b8: WSAEnumNetworkEvents(,,) -> 0
+20200331192636369 14492 50.60: trcssl64: 007 4b8: recv(,29a4eb0c240,4400,0)
+20200331192636371 14492 50.60: trcssl64: 007 4b8: recv(,29a4eb0c240,,) -> 1f6
+20200331192636375 14492 50.60: trcssl64: 007 4b8: shutdown(,1)
+20200331192636375 14492 50.60: trcssl64: 007 4b8: shutdown(,) -> 0
+20200331192636375 14492 50.60: trcssl64: 007 4b8: closesocket() -> 0
+20200331192636376 14492 50.60: trcssl64: 007 WSACloseEvent(4dc)
+20200331192636377 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192636377 14492 50.60: trcssl64: 007 WSACloseEvent(4b4)
+20200331192636377 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192636378 14492 50.60: trcssl64: 007 WSASocketW -> 4b4
+20200331192636378 14492 50.60: trcssl64: 007 WSASocketW
+20200331192636378 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636379 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4dc
+20200331192636379 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192636380 14492 50.60: trcssl64: 007 WSACreateEvent() -> 728
+20200331192636380 14492 50.60: trcssl64: 007 4b4: connect(,d2fe1fcfa0:52.157.234.37:443,10) -> ffffffff [10035]
+20200331192636524 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1b8)
+20200331192636524 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192636525 14492 50.60: trcssl64: 007 4b4: recv(,d2fe1fef17,1,2)
+20200331192636528 14492 50.60: trcssl64: 007 4b4: recv(,d2fe1fef17,,) -> ffffffff
+20200331192636529 14492 50.60: trcssl64: 007 4b4: recv(,d2fe1fe9c7,1,2)
+20200331192636531 14492 50.60: trcssl64: 007 4b4: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192636532 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5b270,0)
+20200331192636533 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636535 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636539 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636540 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636542 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192636692 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192636692 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192636693 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636696 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> 1610
+20200331192636697 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636698 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192636709 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192636709 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192636710 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636711 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> 1f6
+20200331192636722 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4ea5b270,0)
+20200331192636723 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636723 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636725 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636726 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636727 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192636731 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b270,0)
+20200331192636733 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636735 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636736 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636738 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b270,0)
+20200331192636738 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636741 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636742 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636879 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192636879 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192636880 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636883 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> 78
+20200331192636885 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636886 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192636888 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b270,0)
+20200331192636889 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636891 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636893 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636900 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192636900 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192636901 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636904 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> 177
+20200331192636908 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192636910 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192636920 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( wpad)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192636920 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192636920 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192636921 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(524)) -> f94
+20200331192636946 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b270,0)
+20200331192636946 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636946 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636947 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192636947 14492 50.60: trcssl64: 007 4b4: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b270,0)
+20200331192636948 14492 50.60: trcssl64: 007 4b4: WSASend(,,,,,,) -> 0
+20200331192636948 14492 50.60: trcssl64: 007 WSAResetEvent(728)
+20200331192636949 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192637108 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192637108 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192637109 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192637112 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> 2a
+20200331192637113 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192637115 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192637128 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192637128 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192637130 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192637131 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> 14e
+20200331192637136 14492 50.60: trcssl64: 007 WSASocketW -> 700
+20200331192637136 14492 50.60: trcssl64: 007 WSASocketW
+20200331192637138 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192637139 14492 50.60: trcssl64: 007 WSACreateEvent() -> 730
+20200331192637140 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192637144 26012 50.60: trcssl64: 012 109c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca220432d8,0)
+20200331192637142 14492 50.60: trcssl64: 007 WSACreateEvent() -> 6cc
+20200331192637144 26012 50.60: trcssl64: 012 109c: WSASendTo(,,,,,,,,) -> 0
+20200331192637146 14492 50.60: trcssl64: 007 700: connect(,d2fe1fd918:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192637147 26012 50.60: trcssl64: 012 WSAResetEvent(10a8)
+20200331192637149 14492 50.60: trcssl64: 007 700: closesocket() -> 0
+20200331192637150 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192637152 14492 50.60: trcssl64: 007 WSACloseEvent(730)
+20200331192637153 26012 50.60: trcssl64: 012 10bc: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c13b78,0)
+20200331192637155 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192637160 26012 50.60: trcssl64: 012 10bc: WSASendTo(,,,,,,,,) -> 0
+20200331192637160 14492 50.60: trcssl64: 007 WSACloseEvent(6cc)
+20200331192637161 26012 50.60: trcssl64: 012 WSAResetEvent(10c8)
+20200331192637162 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192637162 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192637164 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,4400,0)
+20200331192637164 26012 50.60: trcssl64: 012 10d4: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca220434a8,0)
+20200331192637165 14492 50.60: trcssl64: 007 4b4: recv(,29a4eb5e020,,) -> ffffffff
+20200331192637167 26012 50.60: trcssl64: 012 10d4: WSASendTo(,,,,,,,,) -> 0
+20200331192637170 26012 50.60: trcssl64: 012 WSAResetEvent(10d8)
+20200331192637171 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192637922 14492 50.60: trcssl64: 016  getaddrinfo( TID: 3418 NAME( config.edge.skype.com)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192637922 14492 50.60: trcssl64: 016    GetAddrInfoW( NAME( config.edge.skype.com) , SRV_NAME((NULL)),)
+20200331192637936 26012 50.60: trcssl64: 047 f1c: WSASend(,1ca22799050,1,b298fff498,0,1ca22798f18,0)
+20200331192637936 26012 50.60: trcssl64: 047 f1c: WSASend(,,,,,,) -> 0
+20200331192637938 26012 50.60: trcssl64: 047 1ca21a5a180: EncryptMessage(0,98fff368,0)
+20200331192637938 26012 50.60: trcssl64: 047   1ca21a5a180:  Type=00000001 Size=386
+20200331192637938 26012 50.60: trcssl64: 047   1ca21a5a180:   POST /api/browser/edge/actions HTTP/1.1\r\n
+20200331192637939 26012 50.60: trcssl64: 047   1ca21a5a180:   Connection: Keep-Alive\r\n
+20200331192637939 26012 50.60: trcssl64: 047   1ca21a5a180:   Content-Type: application/json; charset=utf-8\r\n
+20200331192637940 26012 50.60: trcssl64: 047   1ca21a5a180:   Authorization: SmartScreenHash eyJhdXRoSWQiOiIzODFkZGQxZS1lNjAwLTQyZGUtOTRlZC04Y
+20200331192637940 26012 50.60: trcssl64: 047   1ca21a5a180:   zM0YmY3M2YxNmQiLCJoYXNoIjoiVStsMkdINkc2dzg9Iiwia2V5IjoiVW1aMEFaNUthdUFIZ1pBU2JWW
+20200331192637940 26012 50.60: trcssl64: 047   1ca21a5a180:   StHUT09In0=\r\n
+20200331192637941 26012 50.60: trcssl64: 047   1ca21a5a180:   User-Agent: SmartScreen/281479396982785\r\n
+20200331192637941 26012 50.60: trcssl64: 047   1ca21a5a180:   Content-Length: 585\r\n
+20200331192637942 26012 50.60: trcssl64: 047   1ca21a5a180:   Host: nav.smartscreen.microsoft.com\r\n
+20200331192637942 26012 50.60: trcssl64: 047   1ca21a5a180:   \r\n
+20200331192637942 26012 50.60: trcssl64: 047 1ca21a5a180: EncryptMessage(,) -> 0
+20200331192637943 26012 50.60: trcssl64: 047 f1c: WSASend(,1ca22799330,1,b298fff398,0,1ca227991f8,0)
+20200331192637945 26012 50.60: trcssl64: 047 f1c: WSASend(,,,,,,) -> 0
+20200331192637945 26012 50.60: trcssl64: 046 1ca21a5a180: EncryptMessage(0,987fee58,0)
+20200331192637946 26012 50.60: trcssl64: 046   1ca21a5a180:  Type=00000001 Size=585
+20200331192637946 26012 50.60: trcssl64: 046   1ca21a5a180:   {"identity":{"caller":{"locale":"en-US"},"client":{"data":{"customSettings":"F95
+20200331192637946 26012 50.60: trcssl64: 046   1ca21a5a180:   BA787499AB4FA9EFFF472CE383A14","customSynchronousLookupUris":"0","edgeSettings":
+20200331192637947 26012 50.60: trcssl64: 046   1ca21a5a180:   "1.0-5abfbe7cfad552badaf691e9fc66d8038f212a9bdd7839199adb04a83e146ec6","synchron
+20200331192637947 26012 50.60: trcssl64: 046   1ca21a5a180:   ousLookupUris":"637212787540459622","topTraffic":"319729430708873239333501969648
+20200331192637948 26012 50.60: trcssl64: 046   1ca21a5a180:   228053463"},"version":"281479396982785"},"device":{"architecture":9,"browser":{"
+20200331192637948 26012 50.60: trcssl64: 046   1ca21a5a180:   internetExplorer":"9.11.18362.0"},"cloudSku":false,"enterprise":null,"family":3,
+20200331192637948 26012 50.60: trcssl64: 046   1ca21a5a180:   "locale":"en-US","netJoinStatus":2,"osVersion":"10.0.18362.720.19h1_release"},"u
+20200331192637949 26012 50.60: trcssl64: 046   1ca21a5a180:   ser":{"locale":"en-US"}}}
+20200331192637949 26012 50.60: trcssl64: 046 1ca21a5a180: EncryptMessage(,) -> 0
+20200331192637950 26012 50.60: trcssl64: 046 f1c: WSASend(,1ca22799330,1,b2987fee88,0,1ca227991f8,0)
+20200331192637951 26012 50.60: trcssl64: 046 f1c: WSASend(,,,,,,) -> 0
+20200331192637993 14492 50.60: trcssl64: 010   GetAddrInfoW(,,,,) -> 2af9
+20200331192637993 14492 50.60: trcssl64: 010 getaddrinfo(,,,,) -> 2af9
+20200331192638146 26012 50.60: trcssl64: 012 109c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca220432d8,0)
+20200331192638146 26012 50.60: trcssl64: 012 109c: WSASendTo(,,,,,,,,) -> 0
+20200331192638146 26012 50.60: trcssl64: 012 WSAResetEvent(10a8)
+20200331192638154 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192638156 26012 50.60: trcssl64: 012 10bc: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c13b78,0)
+20200331192638158 26012 50.60: trcssl64: 012 10bc: WSASendTo(,,,,,,,,) -> 0
+20200331192638161 26012 50.60: trcssl64: 012 WSAResetEvent(10c8)
+20200331192638163 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192638164 26012 50.60: trcssl64: 012 10d4: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca220434a8,0)
+20200331192638166 26012 50.60: trcssl64: 012 10d4: WSASendTo(,,,,,,,,) -> 0
+20200331192638167 26012 50.60: trcssl64: 012 WSAResetEvent(10d8)
+20200331192638169 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192638230 14492 50.60: trcssl64: 016     WSASocketW -> 730
+20200331192638230 14492 50.60: trcssl64: 016     WSASocketW
+20200331192638230 14492 50.60: trcssl64: 016     730: closesocket() -> 0
+20200331192638234 14492 50.60: trcssl64: 016   GetAddrInfoW(,,,,) -> 0
+20200331192638236 14492 50.60: trcssl64: 016   IPv4 address 29a4aa3e480 13.107.3.128
+20200331192638237 14492 50.60: trcssl64: 016 getaddrinfo(,,,,) -> 0
+20200331192638239 14492 50.60: trcssl64: 007 WSASocketW -> 700
+20200331192638240 14492 50.60: trcssl64: 007 WSASocketW
+20200331192638241 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192638246 14492 50.60: trcssl64: 007 WSACreateEvent() -> 734
+20200331192638247 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192638248 14492 50.60: trcssl64: 007 WSACreateEvent() -> 72c
+20200331192638250 14492 50.60: trcssl64: 007 700: connect(,d2fe1fe8e0:13.107.3.128:443,10) -> ffffffff [10035]
+20200331192638285 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,734,d2fe1ff1b8)
+20200331192638285 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,,) -> 0
+20200331192638286 14492 50.60: trcssl64: 007 700: recv(,d2fe1fef17,1,2)
+20200331192638288 14492 50.60: trcssl64: 007 700: recv(,d2fe1fef17,,) -> ffffffff
+20200331192638289 14492 50.60: trcssl64: 007 700: recv(,d2fe1fe9c7,1,2)
+20200331192638290 14492 50.60: trcssl64: 007 700: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192638291 14492 50.60: trcssl64: 007 700: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5c1e0,0)
+20200331192638291 14492 50.60: trcssl64: 007 700: WSASend(,,,,,,) -> 0
+20200331192638292 14492 50.60: trcssl64: 007 WSAResetEvent(72c)
+20200331192638293 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192638294 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638295 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> ffffffff
+20200331192638439 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,734,d2fe1ff1c0)
+20200331192638439 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,,) -> 0
+20200331192638439 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638441 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> b7a
+20200331192638443 14492 50.60: trcssl64: 007 700: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4ea5c1e0,0)
+20200331192638443 14492 50.60: trcssl64: 007 700: WSASend(,,,,,,) -> 0
+20200331192638444 14492 50.60: trcssl64: 007 WSAResetEvent(72c)
+20200331192638444 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192638445 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638446 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> ffffffff
+20200331192638447 14492 50.60: trcssl64: 007 700: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c1e0,0)
+20200331192638447 14492 50.60: trcssl64: 007 700: WSASend(,,,,,,) -> 0
+20200331192638448 14492 50.60: trcssl64: 007 WSAResetEvent(72c)
+20200331192638449 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192638452 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,734,d2fe1ff1c0)
+20200331192638452 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,,) -> 0
+20200331192638454 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638455 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> b7
+20200331192638455 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638456 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> ffffffff
+20200331192638456 14492 50.60: trcssl64: 007 700: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c1e0,0)
+20200331192638456 14492 50.60: trcssl64: 007 700: WSASend(,,,,,,) -> 0
+20200331192638457 14492 50.60: trcssl64: 007 WSAResetEvent(72c)
+20200331192638457 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192638457 14492 50.60: trcssl64: 007 700: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c1e0,0)
+20200331192638458 14492 50.60: trcssl64: 007 700: WSASend(,,,,,,) -> 0
+20200331192638458 14492 50.60: trcssl64: 007 WSAResetEvent(72c)
+20200331192638458 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192638459 14492 50.60: trcssl64: 007 700: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c1e0,0)
+20200331192638459 14492 50.60: trcssl64: 007 700: WSASend(,,,,,,) -> 0
+20200331192638459 14492 50.60: trcssl64: 007 WSAResetEvent(72c)
+20200331192638460 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192638735 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,734,d2fe1ff1c0)
+20200331192638735 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,,) -> 0
+20200331192638736 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638737 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> 189
+20200331192638738 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,4400,0)
+20200331192638738 14492 50.60: trcssl64: 007 700: recv(,29a4eb5e020,,) -> ffffffff
+20200331192638949 26012 50.60: trcssl64: 047 1ca21a5a180: DecryptMessage(98fff458,0,0)
+20200331192638949 26012 50.60: trcssl64: 047   1ca21a5a180:  Type=00000001 Size=1010
+20200331192638950 26012 50.60: trcssl64: 047   1ca21a5a180:   HTTP/1.1 200 OK\r\n
+20200331192638953 26012 50.60: trcssl64: 047   1ca21a5a180:   Cache-Control: max-age=0, private\r\n
+20200331192638954 26012 50.60: trcssl64: 047   1ca21a5a180:   Content-Length: 745\r\n
+20200331192638956 26012 50.60: trcssl64: 047   1ca21a5a180:   Content-Type: application/json; charset=utf-8\r\n
+20200331192638957 26012 50.60: trcssl64: 047   1ca21a5a180:   Server: Microsoft-HTTPAPI/2.0\r\n
+20200331192638957 26012 50.60: trcssl64: 047   1ca21a5a180:   X-SmartScreen-Flight-Vector: serve-wdsi-fbu-to-anaheim\r\n
+20200331192638958 26012 50.60: trcssl64: 047   1ca21a5a180:   Date: Tue, 31 Mar 2020 19:26:37 GMT\r\n
+20200331192638958 26012 50.60: trcssl64: 047   1ca21a5a180:   Connection: close\r\n
+20200331192638959 26012 50.60: trcssl64: 047   1ca21a5a180:   \r\n
+20200331192638959 26012 50.60: trcssl64: 047   1ca21a5a180:   {"actions":[{"$type":"ping","uri":"https://smartscreen-prod.microsoft.com/window
+20200331192638959 26012 50.60: trcssl64: 047   1ca21a5a180:   s/browser/edge/actions?pushCert=false&flight=%7B%22ETag%22%3A%22%5C%22rvvPYzwIoo
+20200331192638960 26012 50.60: trcssl64: 047   1ca21a5a180:   LLMODNl11GXm1Ci%2ByBFnVSmgAhJ41oL94%3D%5C%22%22%2C%22Ids%22%3A%5B%22I-R-34930-6-
+20200331192638962 26012 50.60: trcssl64: 047   1ca21a5a180:   5%2CI-R-34235-3-9%2CI-R-33983-1-9%2CI-D-30652-1-2%22%5D%2C%22Settings%22%3A%7B%2
+20200331192638962 26012 50.60: trcssl64: 047   1ca21a5a180:   2Names%22%3A%5B%22serve-wdsi-fbu-to-anaheim%22%5D%2C%22Ring%22%3A0%2C%22Models%2
+20200331192638963 26012 50.60: trcssl64: 047   1ca21a5a180:   2%3Anull%2C%22ServiceTechScamDetonate%22%3Afalse%2C%22UmsUrfLookup%22%3Atrue%2C%
+20200331192638963 26012 50.60: trcssl64: 047   1ca21a5a180:   22UmsUrfApplyResult%22%3Afalse%2C%22UrsFastV2%22%3Atrue%2C%22WdsiFeedback%22%3At
+20200331192638963 26012 50.60: trcssl64: 047   1ca21a5a180:   rue%2C%22NPFeedbackUriOverride%22%3Anull%2C%22NetworkFilterDetonate%22%3Afalse%2
+20200331192638964 26012 50.60: trcssl64: 047   1ca21a5a180:   C%22ServicePhishDetonate%22%3Afalse%2C%22ServiceAdhocDetonate%22%3Afalse%7D%7D",
+20200331192638964 26012 50.60: trcssl64: 047   1ca21a5a180:   "timeout":864000000000}]}
+20200331192638965 26012 50.60: trcssl64: 047 1ca21a5a180: DecryptMessage(,) -> 0
+20200331192638965 26012 50.60: trcssl64: 047 1ca21a5a180: EncryptMessage(40000000,98ffeff8,0)
+20200331192638965 26012 50.60: trcssl64: 047   1ca21a5a180:  Type=00000001 Size=2
+20200331192638966 26012 50.60: trcssl64: 047   1ca21a5a180:   \x01\x00
+20200331192638966 26012 50.60: trcssl64: 047 1ca21a5a180: EncryptMessage(,) -> 0
+20200331192638967 26012 50.60: trcssl64: 047 f1c: WSASend(,1ca22798640,1,b298fff028,0,1ca22798508,0)
+20200331192638968 26012 50.60: trcssl64: 047 f1c: WSASend(,,,,,,) -> 0
+20200331192638969 26012 50.60: trcssl64: 047 f1c: shutdown(,1)
+20200331192638969 26012 50.60: trcssl64: 047 f1c: shutdown(,) -> 0
+20200331192638970 26012 50.60: trcssl64: 047 f1c: WSARecv(,1ca22798640,1,b298fff490,b298fff494,1ca22798508,0)
+20200331192638970 26012 50.60: trcssl64: 047 f1c: WSARecv(,,,,,,) -> 0
+20200331192638971 26012 50.60: trcssl64: 046 f1c: shutdown(,1)
+20200331192638974 26012 50.60: trcssl64: 046 f1c: shutdown(,) -> 0
+20200331192638974 26012 50.60: trcssl64: 046 f1c: closesocket() -> 0
+20200331192639891 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 2af9
+20200331192639891 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 2af9
+20200331192640103 26012 50.60: trcssl64: 012 10d4: closesocket() -> 0
+20200331192640103 26012 50.60: trcssl64: 012 10bc: closesocket() -> 0
+20200331192640103 26012 50.60: trcssl64: 012 109c: closesocket() -> 0
+20200331192640105 26012 50.60: trcssl64: 012 WSACloseEvent(fb0)
+20200331192640105 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192640106 26012 50.60: trcssl64: 012 WSACloseEvent(10d8)
+20200331192640106 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192640107 26012 50.60: trcssl64: 012 WSACloseEvent(fc0)
+20200331192640107 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192640107 26012 50.60: trcssl64: 012 WSACloseEvent(10c8)
+20200331192640108 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192640108 26012 50.60: trcssl64: 012 WSACloseEvent(1038)
+20200331192640109 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192640110 26012 50.60: trcssl64: 012 WSACloseEvent(10a8)
+20200331192640110 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192640203 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192640203 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(2ec8)) -> 148c
+20200331192640218 26012 50.60: trcssl64: 047 WSASocketW -> 1518
+20200331192640218 26012 50.60: trcssl64: 047 WSASocketW
+20200331192640219 26012 50.60: trcssl64: 047 1518: closesocket() -> 0
+20200331192640220 26012 50.60: trcssl64: 047 WSACleanup()
+20200331192640221 26012 50.60: trcssl64: 047 WSACleanup() -> 0
+20200331192640224 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192640224 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(2554)) -> 150c
+20200331192640227 26012 50.60: trcssl64: 010 CreateThread(6540)
+20200331192640227 26012 50.60: trcssl64: 010 CreateThread(currentid(6540) - child(4ac0)) -> 15dc
+20200331192640230 14492 50.60: trcssl64: 007 WSASocketW -> 508
+20200331192640230 14492 50.60: trcssl64: 007 WSASocketW
+20200331192640230 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640230 14492 50.60: trcssl64: 007 WSACreateEvent() -> 6f4
+20200331192640231 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640231 14492 50.60: trcssl64: 007 WSACreateEvent() -> 48c
+20200331192640235 14492 50.60: trcssl64: 007 508: connect(,d2fe1fcd28:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192640235 14492 50.60: trcssl64: 007 508: closesocket() -> 0
+20200331192640235 14492 50.60: trcssl64: 007 WSACloseEvent(6f4)
+20200331192640236 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192640236 14492 50.60: trcssl64: 007 WSACloseEvent(48c)
+20200331192640237 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192640238 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( client.wns.windows.com)  , SRV_NAME((NULL)), (PADDR fb1ce972cff4))
+20200331192640239 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( client.wns.windows.com) , SRV_NAME((NULL)),)
+20200331192640240 26012 50.60: trcssl64: 010 CreateThread(6540)
+20200331192640240 26012 50.60: trcssl64: 010 CreateThread(currentid(6540) - child(5e00)) -> 15f8
+20200331192640244 26012 50.60: trcssl64: 012 WSASocketW -> 15fc
+20200331192640244 26012 50.60: trcssl64: 012 WSASocketW
+20200331192640245 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640245 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1614
+20200331192640246 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640247 26012 50.60: trcssl64: 012 WSACreateEvent() -> fb8
+20200331192640248 26012 50.60: trcssl64: 012 WSASocketW -> 810
+20200331192640248 26012 50.60: trcssl64: 012 WSASocketW
+20200331192640249 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640249 26012 50.60: trcssl64: 012 WSACreateEvent() -> fb0
+20200331192640250 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640250 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1044
+20200331192640252 26012 50.60: trcssl64: 012 WSASocketW -> 72c
+20200331192640252 26012 50.60: trcssl64: 012 WSASocketW
+20200331192640253 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640255 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1440
+20200331192640255 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640256 26012 50.60: trcssl64: 012 WSACreateEvent() -> 143c
+20200331192640256 26012 50.60: trcssl64: 012 WSASocketW -> 1438
+20200331192640256 26012 50.60: trcssl64: 012 WSASocketW
+20200331192640257 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640257 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1434
+20200331192640257 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640258 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1420
+20200331192640258 26012 50.60: trcssl64: 012 WSASocketW -> 141c
+20200331192640258 26012 50.60: trcssl64: 012 WSASocketW
+20200331192640259 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640259 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1418
+20200331192640259 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640260 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1414
+20200331192640260 26012 50.60: trcssl64: 012 WSASocketW -> 1410
+20200331192640260 26012 50.60: trcssl64: 012 WSASocketW
+20200331192640261 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640261 26012 50.60: trcssl64: 012 WSACreateEvent() -> 140c
+20200331192640262 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192640262 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1408
+20200331192640262 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,b280fff350,1,b280fff348,b280fff34c,1ca21fd1db8,1ca21fd1e38,1ca21fd1d68,0)
+20200331192640263 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640263 26012 50.60: trcssl64: 012 810: WSARecvFrom(,b280fff350,1,b280fff348,b280fff34c,1ca21fd1f88,1ca21fd2008,1ca21fd1f38,0)
+20200331192640263 26012 50.60: trcssl64: 012 810: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640264 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,b280fff350,1,b280fff348,b280fff34c,1ca21fd1be8,1ca21fd1c68,1ca21fd1b98,0)
+20200331192640268 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640269 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,b280fff350,1,b280fff348,b280fff34c,1ca21fd2158,1ca21fd21d8,1ca21fd2108,0)
+20200331192640270 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640270 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,b280fff350,1,b280fff348,b280fff34c,1ca25df79c8,1ca25df7a48,1ca25df7978,0)
+20200331192640270 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640271 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,b280fff350,1,b280fff348,b280fff34c,1ca25df7458,1ca25df74d8,1ca25df7408,0)
+20200331192640271 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640272 26012 50.60: trcssl64: 012 15fc: WSASendTo(,b280fff330,1,b280fff32c,0,b280fff340,10,1ca21fd1d88,0)
+20200331192640272 26012 50.60: trcssl64: 012 15fc: WSASendTo(,,,,,,,,) -> 0
+20200331192640272 26012 50.60: trcssl64: 012 WSAResetEvent(fb8)
+20200331192640273 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640274 26012 50.60: trcssl64: 012 810: WSASendTo(,b280fff330,1,b280fff32c,0,b280fff340,1c,1ca21fd1f58,0)
+20200331192640274 26012 50.60: trcssl64: 012 810: WSASendTo(,,,,,,,,) -> 0
+20200331192640275 26012 50.60: trcssl64: 012 WSAResetEvent(1044)
+20200331192640275 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640276 26012 50.60: trcssl64: 012 72c: WSASendTo(,b280fff330,1,b280fff32c,0,b280fff340,10,1ca21fd1bb8,0)
+20200331192640276 26012 50.60: trcssl64: 012 72c: WSASendTo(,,,,,,,,) -> 0
+20200331192640276 26012 50.60: trcssl64: 012 WSAResetEvent(143c)
+20200331192640277 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640280 26012 50.60: trcssl64: 012 1438: WSASendTo(,b280fff330,1,b280fff32c,0,b280fff340,1c,1ca21fd2128,0)
+20200331192640280 26012 50.60: trcssl64: 012 1438: WSASendTo(,,,,,,,,) -> 0
+20200331192640280 26012 50.60: trcssl64: 012 WSAResetEvent(1420)
+20200331192640281 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640281 26012 50.60: trcssl64: 012 141c: WSASendTo(,b280fff330,1,b280fff32c,0,b280fff340,10,1ca25df7998,0)
+20200331192640282 26012 50.60: trcssl64: 012 141c: WSASendTo(,,,,,,,,) -> 0
+20200331192640282 26012 50.60: trcssl64: 012 WSAResetEvent(1414)
+20200331192640283 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640283 26012 50.60: trcssl64: 012 1410: WSASendTo(,b280fff330,1,b280fff32c,0,b280fff340,1c,1ca25df7428,0)
+20200331192640284 26012 50.60: trcssl64: 012 1410: WSASendTo(,,,,,,,,) -> 0
+20200331192640285 26012 50.60: trcssl64: 012 WSAResetEvent(1408)
+20200331192640285 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640285 26012 50.60: trcssl64: 012 WSAResetEvent(1614)
+20200331192640286 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640286 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1db8,1ca21fd1e38,1ca21fd1d68,0)
+20200331192640287 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640287 26012 50.60: trcssl64: 012 WSAResetEvent(fb0)
+20200331192640287 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640288 26012 50.60: trcssl64: 012 810: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1f88,1ca21fd2008,1ca21fd1f38,0)
+20200331192640290 26012 50.60: trcssl64: 012 810: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640290 26012 50.60: trcssl64: 012 WSAResetEvent(1440)
+20200331192640291 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640291 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1be8,1ca21fd1c68,1ca21fd1b98,0)
+20200331192640291 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640292 26012 50.60: trcssl64: 012 WSAResetEvent(1434)
+20200331192640292 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640292 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd2158,1ca21fd21d8,1ca21fd2108,0)
+20200331192640292 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640292 26012 50.60: trcssl64: 012 WSAResetEvent(1418)
+20200331192640293 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640293 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca25df79c8,1ca25df7a48,1ca25df7978,0)
+20200331192640293 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640294 26012 50.60: trcssl64: 012 WSAResetEvent(140c)
+20200331192640294 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192640295 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca25df7458,1ca25df74d8,1ca25df7408,0)
+20200331192640295 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192640420 14492 50.60: trcssl64: 009     WSASocketW -> 508
+20200331192640420 14492 50.60: trcssl64: 009     WSASocketW
+20200331192640421 14492 50.60: trcssl64: 009     508: closesocket() -> 0
+20200331192640425 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 0
+20200331192640426 14492 50.60: trcssl64: 009   IPv4 address 29a4aa61070 40.67.254.36
+20200331192640428 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 0
+20200331192640430 14492 50.60: trcssl64: 007 WSASocketW -> 730
+20200331192640432 14492 50.60: trcssl64: 007 WSASocketW
+20200331192640437 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640438 14492 50.60: trcssl64: 007 WSACreateEvent() -> 73c
+20200331192640440 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640441 14492 50.60: trcssl64: 007 WSACreateEvent() -> 740
+20200331192640443 14492 50.60: trcssl64: 007 730: connect(,d2fe1fe8e0:40.67.254.36:443,10) -> ffffffff [10035]
+20200331192640445 14492 50.60: trcssl64: 007 WSASocketW -> 48c
+20200331192640454 14492 50.60: trcssl64: 007 WSASocketW
+20200331192640456 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640459 14492 50.60: trcssl64: 007 WSACreateEvent() -> 6f4
+20200331192640461 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640463 14492 50.60: trcssl64: 007 WSACreateEvent() -> 720
+20200331192640464 14492 50.60: trcssl64: 007 48c: connect(,d2fe1fe8e0:40.67.254.36:443,10) -> ffffffff [10035]
+20200331192640595 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1b8)
+20200331192640595 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192640596 14492 50.60: trcssl64: 007 730: recv(,d2fe1fef17,1,2)
+20200331192640602 14492 50.60: trcssl64: 007 730: recv(,d2fe1fef17,,) -> ffffffff
+20200331192640603 14492 50.60: trcssl64: 007 730: recv(,d2fe1fe9c7,1,2)
+20200331192640605 14492 50.60: trcssl64: 007 730: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192640606 14492 50.60: trcssl64: 007 730: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5aa20,0)
+20200331192640608 14492 50.60: trcssl64: 007 730: WSASend(,,,,,,) -> 0
+20200331192640608 14492 50.60: trcssl64: 007 WSAResetEvent(740)
+20200331192640608 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192640609 14492 50.60: trcssl64: 007 730: recv(,29a4eb5e020,4400,0)
+20200331192640609 14492 50.60: trcssl64: 007 730: recv(,29a4eb5e020,,) -> ffffffff
+20200331192640625 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1b8)
+20200331192640625 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192640625 14492 50.60: trcssl64: 007 48c: recv(,d2fe1fef17,1,2)
+20200331192640626 14492 50.60: trcssl64: 007 48c: recv(,d2fe1fef17,,) -> ffffffff
+20200331192640627 14492 50.60: trcssl64: 007 48c: recv(,d2fe1fe9c7,1,2)
+20200331192640627 14492 50.60: trcssl64: 007 48c: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192640628 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5ab50,0)
+20200331192640628 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192640628 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192640629 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192640629 14492 50.60: trcssl64: 007 48c: recv(,29a4eb5e020,4400,0)
+20200331192640630 14492 50.60: trcssl64: 007 48c: recv(,29a4eb5e020,,) -> ffffffff
+20200331192640898 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331192640898 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(7f4)) -> 13f0
+20200331192640961 14492 50.60: trcssl64: 007 WSASocketW -> 508
+20200331192640961 14492 50.60: trcssl64: 007 WSASocketW
+20200331192640961 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640962 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4b8
+20200331192640963 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192640963 14492 50.60: trcssl64: 007 WSACreateEvent() -> 748
+20200331192640964 14492 50.60: trcssl64: 007 508: connect(,d2fe1fa7d0:52.157.234.37:443,10) -> ffffffff [10035]
+20200331192640964 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1c0)
+20200331192640965 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192640966 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,4400,0)
+20200331192640966 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,,) -> 86b
+20200331192640967 14492 50.60: trcssl64: 007 730: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4ea5aa20,0)
+20200331192640967 14492 50.60: trcssl64: 007 730: WSASend(,,,,,,) -> 0
+20200331192640967 14492 50.60: trcssl64: 007 WSAResetEvent(740)
+20200331192640967 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192640968 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,4400,0)
+20200331192640968 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,,) -> ffffffff
+20200331192640968 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1c0)
+20200331192640969 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192640969 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,4400,0)
+20200331192640970 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,,) -> 33
+20200331192640970 14492 50.60: trcssl64: 007 730: recv(,d2fe1fee07,1,2)
+20200331192640970 14492 50.60: trcssl64: 007 730: recv(,d2fe1fee07,,) -> ffffffff
+20200331192640973 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,4400,0)
+20200331192640973 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,,) -> ffffffff
+20200331192641003 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192641003 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192641003 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,4400,0)
+20200331192641004 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,,) -> 86b
+20200331192641004 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fea68,1,d2fe1fea64,0,29a4ea5ab50,0)
+20200331192641004 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192641005 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192641005 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641006 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,4400,0)
+20200331192641006 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,,) -> ffffffff
+20200331192641007 14492 50.60: trcssl64: 007 730: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5aa20,0)
+20200331192641007 14492 50.60: trcssl64: 007 730: WSASend(,,,,,,) -> 0
+20200331192641008 14492 50.60: trcssl64: 007 WSAResetEvent(740)
+20200331192641008 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641009 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192641009 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192641009 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,4400,0)
+20200331192641010 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,,) -> 33
+20200331192641011 14492 50.60: trcssl64: 007 48c: recv(,d2fe1fee07,1,2)
+20200331192641011 14492 50.60: trcssl64: 007 48c: recv(,d2fe1fee07,,) -> ffffffff
+20200331192641012 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,4400,0)
+20200331192641012 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,,) -> ffffffff
+20200331192641016 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192641016 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192641017 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192641018 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641116 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1b8)
+20200331192641116 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192641117 14492 50.60: trcssl64: 007 508: recv(,d2fe1fef17,1,2)
+20200331192641121 14492 50.60: trcssl64: 007 508: recv(,d2fe1fef17,,) -> ffffffff
+20200331192641123 14492 50.60: trcssl64: 007 508: recv(,d2fe1fe9c7,1,2)
+20200331192641124 14492 50.60: trcssl64: 007 508: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192641126 14492 50.60: trcssl64: 007 508: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5b4d0,0)
+20200331192641127 14492 50.60: trcssl64: 007 508: WSASend(,,,,,,) -> 0
+20200331192641129 14492 50.60: trcssl64: 007 WSAResetEvent(748)
+20200331192641134 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641136 14492 50.60: trcssl64: 007 508: recv(,29a4eb62030,4400,0)
+20200331192641137 14492 50.60: trcssl64: 007 508: recv(,29a4eb62030,,) -> ffffffff
+20200331192641177 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1c0)
+20200331192641177 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192641177 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,4400,0)
+20200331192641179 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,,) -> 118
+20200331192641180 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,4400,0)
+20200331192641181 14492 50.60: trcssl64: 007 730: recv(,29a4eb62030,,) -> ffffffff
+20200331192641182 14492 50.60: trcssl64: 007 730: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5aa20,0)
+20200331192641183 14492 50.60: trcssl64: 007 730: WSASend(,,,,,,) -> 0
+20200331192641183 14492 50.60: trcssl64: 007 WSAResetEvent(740)
+20200331192641184 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641197 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192641197 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192641198 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,4400,0)
+20200331192641200 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,,) -> 117
+20200331192641201 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,4400,0)
+20200331192641202 14492 50.60: trcssl64: 007 48c: recv(,29a4eb62030,,) -> ffffffff
+20200331192641203 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192641204 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192641205 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192641206 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641286 26012 50.60: trcssl64: 012 15fc: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,10,1ca21fd1d88,0)
+20200331192641286 26012 50.60: trcssl64: 012 15fc: WSASendTo(,,,,,,,,) -> 0
+20200331192641287 26012 50.60: trcssl64: 012 WSAResetEvent(fb8)
+20200331192641290 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641291 26012 50.60: trcssl64: 012 810: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,1c,1ca21fd1f58,0)
+20200331192641294 26012 50.60: trcssl64: 012 810: WSASendTo(,,,,,,,,) -> 0
+20200331192641296 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1c0)
+20200331192641295 26012 50.60: trcssl64: 012 WSAResetEvent(1044)
+20200331192641296 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192641296 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641299 14492 50.60: trcssl64: 007 508: recv(,29a4eb62030,4400,0)
+20200331192641305 26012 50.60: trcssl64: 012 72c: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,10,1ca21fd1bb8,0)
+20200331192641306 14492 50.60: trcssl64: 007 508: recv(,29a4eb62030,,) -> 1610
+20200331192641308 26012 50.60: trcssl64: 012 72c: WSASendTo(,,,,,,,,) -> 0
+20200331192641310 14492 50.60: trcssl64: 007 508: recv(,29a4eb62030,4400,0)
+20200331192641312 26012 50.60: trcssl64: 012 WSAResetEvent(143c)
+20200331192641321 14492 50.60: trcssl64: 007 508: recv(,29a4eb62030,,) -> 1f6
+20200331192641322 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641324 26012 50.60: trcssl64: 012 1438: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,1c,1ca21fd2128,0)
+20200331192641328 26012 50.60: trcssl64: 012 1438: WSASendTo(,,,,,,,,) -> 0
+20200331192641329 14492 50.60: trcssl64: 007 508: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4ea5b4d0,0)
+20200331192641328 26012 50.60: trcssl64: 012 WSAResetEvent(1420)
+20200331192641329 14492 50.60: trcssl64: 007 508: WSASend(,,,,,,) -> 0
+20200331192641329 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641330 14492 50.60: trcssl64: 007 WSAResetEvent(748)
+20200331192641331 26012 50.60: trcssl64: 012 141c: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,10,1ca25df7998,0)
+20200331192641332 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641332 26012 50.60: trcssl64: 012 141c: WSASendTo(,,,,,,,,) -> 0
+20200331192641333 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,4400,0)
+20200331192641333 26012 50.60: trcssl64: 012 WSAResetEvent(1414)
+20200331192641334 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641335 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641338 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1c0)
+20200331192641338 26012 50.60: trcssl64: 012 1410: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,1c,1ca25df7428,0)
+20200331192641340 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192641340 26012 50.60: trcssl64: 012 1410: WSASendTo(,,,,,,,,) -> 0
+20200331192641341 26012 50.60: trcssl64: 012 WSAResetEvent(1408)
+20200331192641341 14492 50.60: trcssl64: 007 508: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b4d0,0)
+20200331192641342 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641342 14492 50.60: trcssl64: 007 508: WSASend(,,,,,,) -> 0
+20200331192641342 26012 50.60: trcssl64: 012 WSAResetEvent(1614)
+20200331192641343 14492 50.60: trcssl64: 007 WSAResetEvent(748)
+20200331192641343 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641343 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641344 14492 50.60: trcssl64: 007 508: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b4d0,0)
+20200331192641344 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1db8,1ca21fd1e38,1ca21fd1d68,0)
+20200331192641344 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192641345 14492 50.60: trcssl64: 007 508: WSASend(,,,,,,) -> 0
+20200331192641345 26012 50.60: trcssl64: 012 WSAResetEvent(fb0)
+20200331192641345 14492 50.60: trcssl64: 007 WSAResetEvent(748)
+20200331192641346 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641348 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641349 26012 50.60: trcssl64: 012 810: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1f88,1ca21fd2008,1ca21fd1f38,0)
+20200331192641350 26012 50.60: trcssl64: 012 810: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192641351 26012 50.60: trcssl64: 012 WSAResetEvent(1440)
+20200331192641350 14492 50.60: trcssl64: 007 508: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b4d0,0)
+20200331192641350 14492 50.60: trcssl64: 007 508: WSASend(,,,,,,) -> 0
+20200331192641351 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641351 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1be8,1ca21fd1c68,1ca21fd1b98,0)
+20200331192641352 14492 50.60: trcssl64: 007 WSAResetEvent(748)
+20200331192641352 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641353 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1c0)
+20200331192641354 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192641352 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192641353 26012 50.60: trcssl64: 012 WSAResetEvent(1434)
+20200331192641355 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641355 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd2158,1ca21fd21d8,1ca21fd2108,0)
+20200331192641356 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192641356 26012 50.60: trcssl64: 012 WSAResetEvent(1418)
+20200331192641354 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,4400,0)
+20200331192641356 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641357 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca25df79c8,1ca25df7a48,1ca25df7978,0)
+20200331192641361 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192641361 26012 50.60: trcssl64: 012 WSAResetEvent(140c)
+20200331192641362 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192641362 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca25df7458,1ca25df74d8,1ca25df7408,0)
+20200331192641362 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192641355 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,,) -> 65
+20200331192641359 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,4400,0)
+20200331192641363 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641363 14492 50.60: trcssl64: 007 730: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5aa20,0)
+20200331192641363 14492 50.60: trcssl64: 007 730: WSASend(,,,,,,) -> 0
+20200331192641364 14492 50.60: trcssl64: 007 WSAResetEvent(740)
+20200331192641364 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641390 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192641390 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192641390 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,4400,0)
+20200331192641394 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,,) -> 65
+20200331192641395 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,4400,0)
+20200331192641397 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641399 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192641401 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192641405 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192641407 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641497 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1c0)
+20200331192641497 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192641498 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,4400,0)
+20200331192641502 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,,) -> 78
+20200331192641503 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,4400,0)
+20200331192641505 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641506 14492 50.60: trcssl64: 007 508: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5b4d0,0)
+20200331192641508 14492 50.60: trcssl64: 007 508: WSASend(,,,,,,) -> 0
+20200331192641509 14492 50.60: trcssl64: 007 WSAResetEvent(748)
+20200331192641511 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641516 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1c0)
+20200331192641522 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192641523 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,4400,0)
+20200331192641525 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,,) -> 50
+20200331192641529 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,4400,0)
+20200331192641530 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,,) -> 362
+20200331192641532 14492 50.60: trcssl64: 007 WSASocketW -> 764
+20200331192641532 14492 50.60: trcssl64: 007 WSASocketW
+20200331192641533 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192641534 14492 50.60: trcssl64: 007 WSACreateEvent() -> 768
+20200331192641535 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192641535 14492 50.60: trcssl64: 007 WSACreateEvent() -> 76c
+20200331192641537 14492 50.60: trcssl64: 007 764: connect(,d2fe1fd918:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192641538 14492 50.60: trcssl64: 007 764: closesocket() -> 0
+20200331192641540 14492 50.60: trcssl64: 007 WSACloseEvent(768)
+20200331192641541 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192641541 14492 50.60: trcssl64: 007 WSACloseEvent(76c)
+20200331192641542 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192641543 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,4400,0)
+20200331192641543 14492 50.60: trcssl64: 007 508: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641544 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1c0)
+20200331192641544 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192641545 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,4400,0)
+20200331192641545 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,,) -> 63
+20200331192641546 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,4400,0)
+20200331192641547 14492 50.60: trcssl64: 007 730: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641547 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1c0)
+20200331192641548 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192641606 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192641606 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192641606 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,4400,0)
+20200331192641608 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,,) -> 15d
+20200331192641608 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,4400,0)
+20200331192641608 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641609 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192641609 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192641610 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192641610 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192641788 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192641788 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192641788 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,4400,0)
+20200331192641792 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,,) -> 65
+20200331192641794 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,4400,0)
+20200331192641795 14492 50.60: trcssl64: 007 48c: recv(,29a4eb6e570,,) -> ffffffff
+20200331192641851 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( jdqunnfmnp)  , SRV_NAME((NULL)), (PADDR 74))
+20200331192641851 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( jdqunnfmnp) , SRV_NAME((NULL)),)
+20200331192641851 14492 50.60: trcssl64: 016  getaddrinfo( TID: 3418 NAME( lgdanpvmbdwx)  , SRV_NAME((NULL)), (PADDR 29a4ea5cf40))
+20200331192641854 14492 50.60: trcssl64: 016    GetAddrInfoW( NAME( lgdanpvmbdwx) , SRV_NAME((NULL)),)
+20200331192641852 14492 50.60: trcssl64: 010  getaddrinfo( TID: 15dc NAME( vxprlldqrha)  , SRV_NAME((NULL)), (PADDR fb1ce9f2cfc4))
+20200331192641856 14492 50.60: trcssl64: 010    GetAddrInfoW( NAME( vxprlldqrha) , SRV_NAME((NULL)),)
+20200331192643344 26012 50.60: trcssl64: 012 15fc: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,10,1ca21fd1d88,0)
+20200331192643344 26012 50.60: trcssl64: 012 15fc: WSASendTo(,,,,,,,,) -> 0
+20200331192643344 26012 50.60: trcssl64: 012 WSAResetEvent(fb8)
+20200331192643348 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643350 26012 50.60: trcssl64: 012 810: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,1c,1ca21fd1f58,0)
+20200331192643352 26012 50.60: trcssl64: 012 810: WSASendTo(,,,,,,,,) -> 0
+20200331192643353 26012 50.60: trcssl64: 012 WSAResetEvent(1044)
+20200331192643354 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643355 26012 50.60: trcssl64: 012 72c: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,10,1ca21fd1bb8,0)
+20200331192643357 26012 50.60: trcssl64: 012 72c: WSASendTo(,,,,,,,,) -> 0
+20200331192643357 26012 50.60: trcssl64: 012 WSAResetEvent(143c)
+20200331192643358 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643359 26012 50.60: trcssl64: 012 1438: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,1c,1ca21fd2128,0)
+20200331192643359 26012 50.60: trcssl64: 012 1438: WSASendTo(,,,,,,,,) -> 0
+20200331192643359 26012 50.60: trcssl64: 012 WSAResetEvent(1420)
+20200331192643359 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643360 26012 50.60: trcssl64: 012 141c: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,10,1ca25df7998,0)
+20200331192643361 26012 50.60: trcssl64: 012 141c: WSASendTo(,,,,,,,,) -> 0
+20200331192643361 26012 50.60: trcssl64: 012 WSAResetEvent(1414)
+20200331192643361 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643362 26012 50.60: trcssl64: 012 1410: WSASendTo(,b280fff320,1,b280fff31c,0,b280fff330,1c,1ca25df7428,0)
+20200331192643362 26012 50.60: trcssl64: 012 1410: WSASendTo(,,,,,,,,) -> 0
+20200331192643362 26012 50.60: trcssl64: 012 WSAResetEvent(1408)
+20200331192643363 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643363 26012 50.60: trcssl64: 012 WSAResetEvent(1614)
+20200331192643363 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643363 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1db8,1ca21fd1e38,1ca21fd1d68,0)
+20200331192643363 26012 50.60: trcssl64: 012 15fc: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192643364 26012 50.60: trcssl64: 012 WSAResetEvent(fb0)
+20200331192643364 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643364 26012 50.60: trcssl64: 012 810: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1f88,1ca21fd2008,1ca21fd1f38,0)
+20200331192643364 26012 50.60: trcssl64: 012 810: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192643368 26012 50.60: trcssl64: 012 WSAResetEvent(1440)
+20200331192643371 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643371 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd1be8,1ca21fd1c68,1ca21fd1b98,0)
+20200331192643372 26012 50.60: trcssl64: 012 72c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192643372 26012 50.60: trcssl64: 012 WSAResetEvent(1434)
+20200331192643373 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643373 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca21fd2158,1ca21fd21d8,1ca21fd2108,0)
+20200331192643373 26012 50.60: trcssl64: 012 1438: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192643374 26012 50.60: trcssl64: 012 WSAResetEvent(1418)
+20200331192643374 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643375 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca25df79c8,1ca25df7a48,1ca25df7978,0)
+20200331192643375 26012 50.60: trcssl64: 012 141c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192643375 26012 50.60: trcssl64: 012 WSAResetEvent(140c)
+20200331192643375 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192643375 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,b280fff5d0,1,b280fff5c8,b280fff5cc,1ca25df7458,1ca25df74d8,1ca25df7408,0)
+20200331192643376 26012 50.60: trcssl64: 012 1410: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192644025 14492 50.60: trcssl64: 007 WSASocketW -> 6cc
+20200331192644025 14492 50.60: trcssl64: 007 WSASocketW
+20200331192644026 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192644027 14492 50.60: trcssl64: 007 WSACreateEvent() -> 754
+20200331192644027 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192644028 14492 50.60: trcssl64: 007 WSACreateEvent() -> 76c
+20200331192644028 14492 50.60: trcssl64: 007 6cc: connect(,d2fe1fdf38:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192644028 14492 50.60: trcssl64: 007 6cc: closesocket() -> 0
+20200331192644029 14492 50.60: trcssl64: 007 WSACloseEvent(754)
+20200331192644029 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192644030 14492 50.60: trcssl64: 007 WSACloseEvent(76c)
+20200331192644030 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192644030 14492 50.60: trcssl64: 005  getaddrinfo( TID: 4788 NAME( wpad)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192644031 14492 50.60: trcssl64: 005    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192644794 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 2af9
+20200331192644794 14492 50.60: trcssl64: 016   GetAddrInfoW(,,,,) -> 2af9
+20200331192644795 14492 50.60: trcssl64: 016 getaddrinfo(,,,,) -> 2af9
+20200331192644794 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 2af9
+20200331192644812 14492 50.60: trcssl64: 010   GetAddrInfoW(,,,,) -> 2af9
+20200331192644812 14492 50.60: trcssl64: 010 getaddrinfo(,,,,) -> 2af9
+20200331192645930 14492 50.60: trcssl64: 007 WSASocketW -> 76c
+20200331192645930 14492 50.60: trcssl64: 007 WSASocketW
+20200331192645931 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192645932 14492 50.60: trcssl64: 007 WSACreateEvent() -> 754
+20200331192645936 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192645936 14492 50.60: trcssl64: 007 WSACreateEvent() -> 6cc
+20200331192645937 14492 50.60: trcssl64: 007 76c: connect(,d2fe1fdf38:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192645938 14492 50.60: trcssl64: 007 76c: closesocket() -> 0
+20200331192645938 14492 50.60: trcssl64: 007 WSACloseEvent(754)
+20200331192645938 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192645938 14492 50.60: trcssl64: 007 WSACloseEvent(6cc)
+20200331192645938 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192645939 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( wpad)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192645939 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192647211 14492 50.60: trcssl64: 005   GetAddrInfoW(,,,,) -> 2af9
+20200331192647211 14492 50.60: trcssl64: 005 getaddrinfo(,,,,) -> 2af9
+20200331192648905 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 2af9
+20200331192648905 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 2af9
+20200331192704770 26012 50.60: trcssl64: 023 CreateProcessW(<NULL>,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --field-trial-handle=1820,15990988950391796615,3722496348331190766,131072 --lang=en-US --no-sandbox --enable-audio-service-sandbox --mojo-platform-channel-handle=1856 /prefetch:8,0,0,1,80000,0,<NULL>,b28bffefa8,b28bffee60)
+20200331192704812 26012 50.60: trcssl64: 023 CreateProcessW(,,,,,,,,,) -> 1
+20200331192719977 26012 50.60: trcssl64: 023 CreateProcessW(<NULL>,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --field-trial-handle=1820,15990988950391796615,3722496348331190766,131072 --lang=en-US --no-sandbox --enable-audio-service-sandbox --mojo-platform-channel-handle=2176 /prefetch:8,0,0,1,80000,0,<NULL>,b28bffefa8,b28bffee60)
+20200331192719988 26012 50.60: trcssl64: 023 CreateProcessW(,,,,,,,,,) -> 1
+20200331192735033 14492 50.60: trcssl64: 007 WSASocketW -> 4d4
+20200331192735033 14492 50.60: trcssl64: 007 WSASocketW
+20200331192735034 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192735037 14492 50.60: trcssl64: 007 WSACreateEvent() -> 37c
+20200331192735038 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192735040 14492 50.60: trcssl64: 007 WSACreateEvent() -> 38c
+20200331192735041 14492 50.60: trcssl64: 007 4d4: connect(,d2fe1fbf58:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192735042 14492 50.60: trcssl64: 007 4d4: closesocket() -> 0
+20200331192735043 14492 50.60: trcssl64: 007 WSACloseEvent(37c)
+20200331192735046 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192735051 14492 50.60: trcssl64: 007 WSACloseEvent(38c)
+20200331192735052 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192735053 14492 50.60: trcssl64: 005  getaddrinfo( TID: 4788 NAME( edge.microsoft.com)  , SRV_NAME((NULL)), (PADDR fb1ceb72d214))
+20200331192735054 14492 50.60: trcssl64: 005    GetAddrInfoW( NAME( edge.microsoft.com) , SRV_NAME((NULL)),)
+20200331192735055 14492 50.60: trcssl64: 005     WSASocketW -> 37c
+20200331192735056 14492 50.60: trcssl64: 005     WSASocketW
+20200331192735057 14492 50.60: trcssl64: 005     37c: closesocket() -> 0
+20200331192735057 14492 50.60: trcssl64: 005   GetAddrInfoW(,,,,) -> 0
+20200331192735060 14492 50.60: trcssl64: 005   IPv4 address 29a4aa924d0 13.107.6.158
+20200331192735061 14492 50.60: trcssl64: 005 getaddrinfo(,,,,) -> 0
+20200331192735061 14492 50.60: trcssl64: 017 CreateThread(640)
+20200331192735062 14492 50.60: trcssl64: 007 WSASocketW -> 4d0
+20200331192735063 14492 50.60: trcssl64: 007 WSASocketW
+20200331192735064 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192735062 14492 50.60: trcssl64: 017 CreateThread(currentid(640) - child(7134)) -> 6f8
+20200331192735064 14492 50.60: trcssl64: 007 WSACreateEvent() -> 420
+20200331192735065 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192735066 14492 50.60: trcssl64: 007 WSACreateEvent() -> 3e8
+20200331192735067 14492 50.60: trcssl64: 007 4d0: connect(,d2fe1fe8e0:13.107.6.158:443,10) -> ffffffff [10035]
+20200331192735067 14492 50.60: trcssl64: 017  getaddrinfo( TID: 640 NAME( wpad)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192735068 14492 50.60: trcssl64: 017    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192735078 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,420,d2fe1ff1b8)
+20200331192735078 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,,) -> 0
+20200331192735078 14492 50.60: trcssl64: 007 4d0: recv(,d2fe1fef17,1,2)
+20200331192735078 14492 50.60: trcssl64: 007 4d0: recv(,d2fe1fef17,,) -> ffffffff
+20200331192735079 14492 50.60: trcssl64: 007 4d0: recv(,d2fe1fe9c7,1,2)
+20200331192735079 14492 50.60: trcssl64: 007 4d0: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192735081 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5bd20,0)
+20200331192735084 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735084 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735085 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735085 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,4400,0)
+20200331192735085 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,,) -> ffffffff
+20200331192735166 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,420,d2fe1ff1c0)
+20200331192735166 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,,) -> 0
+20200331192735167 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,4400,0)
+20200331192735168 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,,) -> 85e
+20200331192735171 14492 50.60: trcssl64: 009 CreateThread(5dbc)
+20200331192735171 14492 50.60: trcssl64: 009 CreateThread(currentid(5dbc) - child(6e38)) -> 348
+20200331192735172 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4ea5bd20,0)
+20200331192735172 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735172 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735172 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735173 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,4400,0)
+20200331192735173 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,,) -> ffffffff
+20200331192735174 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5bd20,0)
+20200331192735174 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735175 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735175 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735176 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,420,d2fe1ff1c0)
+20200331192735178 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,,) -> 0
+20200331192735178 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,4400,0)
+20200331192735179 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,,) -> b7
+20200331192735179 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,4400,0)
+20200331192735180 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7c360,,) -> ffffffff
+20200331192735180 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5bd20,0)
+20200331192735180 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735181 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735181 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735182 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5bd20,0)
+20200331192735183 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735184 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735184 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735184 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5bd20,0)
+20200331192735184 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735185 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735185 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735186 14492 50.60: trcssl64: 007 4d0: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5bd20,0)
+20200331192735186 14492 50.60: trcssl64: 007 4d0: WSASend(,,,,,,) -> 0
+20200331192735187 14492 50.60: trcssl64: 007 WSAResetEvent(3e8)
+20200331192735189 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192735190 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,420,d2fe1ff1c0)
+20200331192735190 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,,) -> 0
+20200331192735191 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7d340,4400,0)
+20200331192735191 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7d340,,) -> 2a
+20200331192735191 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7d340,4400,0)
+20200331192735192 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7d340,,) -> ffffffff
+20200331192735293 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,420,d2fe1ff1c0)
+20200331192735293 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,,) -> 0
+20200331192735294 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7d340,4400,0)
+20200331192735296 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb7d340,,) -> 47b
+20200331192735299 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb81060,4400,0)
+20200331192735299 14492 50.60: trcssl64: 007 4d0: recv(,29a4eb81060,,) -> ffffffff
+20200331192738023 14492 50.60: trcssl64: 017   GetAddrInfoW(,,,,) -> 2af9
+20200331192738023 14492 50.60: trcssl64: 017 getaddrinfo(,,,,) -> 2af9
+20200331192738975 26012 50.60: trcssl64: 044 WSACleanup()
+20200331192738975 26012 50.60: trcssl64: 044 WSACleanup() -> 0
+20200331192738975 26012 50.60: trcssl64: 044 WSACleanup()
+20200331192738978 26012 50.60: trcssl64: 044 WSACleanup() -> 0
+20200331192738982 26012 50.60: trcssl64: 044 WSACleanup()
+20200331192738982 26012 50.60: trcssl64: 044 WSACleanup() -> 0
+20200331192741017 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192741017 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192741017 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192741020 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192741188 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192741188 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192741188 14492 50.60: trcssl64: 007 48c: recv(,29a4eb7db50,4400,0)
+20200331192741192 14492 50.60: trcssl64: 007 48c: recv(,29a4eb7db50,,) -> a9
+20200331192741193 14492 50.60: trcssl64: 007 48c: recv(,29a4eb7db50,4400,0)
+20200331192741194 14492 50.60: trcssl64: 007 48c: recv(,29a4eb7db50,,) -> ffffffff
+20200331192804881 26012 50.60: trcssl64: 035 CreateThread(4f80)
+20200331192804881 26012 50.60: trcssl64: 033 CreateThread(25e4)
+20200331192804881 26012 50.60: trcssl64: 035 CreateThread(currentid(4f80) - child(57cc)) -> 8c0
+20200331192804881 26012 50.60: trcssl64: 033 CreateThread(currentid(25e4) - child(2540)) -> bf4
+20200331192808065 14492 50.60: trcssl64: 017 CreateThread(640)
+20200331192808065 14492 50.60: trcssl64: 017 CreateThread(currentid(640) - child(2430)) -> 40c
+20200331192834769 26012 50.60: trcssl64: 023 CreateProcessW(<NULL>,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=gpu-process --field-trial-handle=1820,15990988950391796615,3722496348331190766,131072 --disable-gpu-sandbox --use-gl=disabled --gpu-preferences=KAAAAAAAAADoAAAwAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAQAAAAUAAAAQAAAAAAAAAAEAAAAGAAAA --mojo-platform-channel-handle=2604 /prefetch:2,0,0,1,80000,0,<NULL>,b28bffefa8,b28bffee60)
+20200331192834783 26012 50.60: trcssl64: 023 CreateProcessW(,,,,,,,,,) -> 1
+20200331192835039 26012 50.60: trcssl64: 012 WSASocketW -> 137c
+20200331192835039 26012 50.60: trcssl64: 012 WSASocketW
+20200331192835039 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192835041 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1378
+20200331192835041 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192835042 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1674
+20200331192835043 26012 50.60: trcssl64: 012 137c: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c153c8,1ca22c15448,1ca22c15378,0)
+20200331192835043 26012 50.60: trcssl64: 012 137c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192835044 26012 50.60: trcssl64: 012 WSASocketW -> 168c
+20200331192835044 26012 50.60: trcssl64: 012 WSASocketW
+20200331192835044 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192835045 26012 50.60: trcssl64: 012 WSACreateEvent() -> 89c
+20200331192835045 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192835045 26012 50.60: trcssl64: 012 WSACreateEvent() -> bd0
+20200331192835046 26012 50.60: trcssl64: 012 168c: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c151f8,1ca22c15278,1ca22c151a8,0)
+20200331192835046 26012 50.60: trcssl64: 012 168c: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192835046 26012 50.60: trcssl64: 012 WSASocketW -> 8d0
+20200331192835047 26012 50.60: trcssl64: 012 WSASocketW
+20200331192835047 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192835048 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1428
+20200331192835048 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331192835048 26012 50.60: trcssl64: 012 WSACreateEvent() -> 113c
+20200331192835049 26012 50.60: trcssl64: 012 8d0: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c15598,1ca22c15618,1ca22c15548,0)
+20200331192835051 26012 50.60: trcssl64: 012 8d0: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331192835051 26012 50.60: trcssl64: 012 137c: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c15398,0)
+20200331192835051 26012 50.60: trcssl64: 012 137c: WSASendTo(,,,,,,,,) -> 0
+20200331192835052 26012 50.60: trcssl64: 012 WSAResetEvent(1674)
+20200331192835052 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192835052 26012 50.60: trcssl64: 012 168c: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c151c8,0)
+20200331192835053 26012 50.60: trcssl64: 012 168c: WSASendTo(,,,,,,,,) -> 0
+20200331192835053 26012 50.60: trcssl64: 012 WSAResetEvent(bd0)
+20200331192835053 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192835054 26012 50.60: trcssl64: 012 8d0: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c15568,0)
+20200331192835054 26012 50.60: trcssl64: 012 8d0: WSASendTo(,,,,,,,,) -> 0
+20200331192835054 26012 50.60: trcssl64: 012 WSAResetEvent(113c)
+20200331192835055 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192836058 26012 50.60: trcssl64: 012 137c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15398,0)
+20200331192836058 26012 50.60: trcssl64: 012 137c: WSASendTo(,,,,,,,,) -> 0
+20200331192836058 26012 50.60: trcssl64: 012 WSAResetEvent(1674)
+20200331192836059 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192836060 26012 50.60: trcssl64: 012 168c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c151c8,0)
+20200331192836060 26012 50.60: trcssl64: 012 168c: WSASendTo(,,,,,,,,) -> 0
+20200331192836061 26012 50.60: trcssl64: 012 WSAResetEvent(bd0)
+20200331192836061 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192836062 26012 50.60: trcssl64: 012 8d0: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15568,0)
+20200331192836062 26012 50.60: trcssl64: 012 8d0: WSASendTo(,,,,,,,,) -> 0
+20200331192836062 26012 50.60: trcssl64: 012 WSAResetEvent(113c)
+20200331192836063 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192837059 26012 50.60: trcssl64: 012 137c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15398,0)
+20200331192837059 26012 50.60: trcssl64: 012 137c: WSASendTo(,,,,,,,,) -> 0
+20200331192837059 26012 50.60: trcssl64: 012 WSAResetEvent(1674)
+20200331192837063 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192837064 26012 50.60: trcssl64: 012 168c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c151c8,0)
+20200331192837066 26012 50.60: trcssl64: 012 168c: WSASendTo(,,,,,,,,) -> 0
+20200331192837067 26012 50.60: trcssl64: 012 WSAResetEvent(bd0)
+20200331192837068 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192837069 26012 50.60: trcssl64: 012 8d0: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15568,0)
+20200331192837073 26012 50.60: trcssl64: 012 8d0: WSASendTo(,,,,,,,,) -> 0
+20200331192837077 26012 50.60: trcssl64: 012 WSAResetEvent(113c)
+20200331192837079 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192838059 26012 50.60: trcssl64: 012 137c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15398,0)
+20200331192838059 26012 50.60: trcssl64: 012 137c: WSASendTo(,,,,,,,,) -> 0
+20200331192838060 26012 50.60: trcssl64: 012 WSAResetEvent(1674)
+20200331192838061 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192838061 26012 50.60: trcssl64: 012 168c: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c151c8,0)
+20200331192838062 26012 50.60: trcssl64: 012 168c: WSASendTo(,,,,,,,,) -> 0
+20200331192838062 26012 50.60: trcssl64: 012 WSAResetEvent(bd0)
+20200331192838063 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192838063 26012 50.60: trcssl64: 012 8d0: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15568,0)
+20200331192838063 26012 50.60: trcssl64: 012 8d0: WSASendTo(,,,,,,,,) -> 0
+20200331192838063 26012 50.60: trcssl64: 012 WSAResetEvent(113c)
+20200331192838064 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331192840041 26012 50.60: trcssl64: 012 8d0: closesocket() -> 0
+20200331192840041 26012 50.60: trcssl64: 012 168c: closesocket() -> 0
+20200331192840041 26012 50.60: trcssl64: 012 137c: closesocket() -> 0
+20200331192840042 26012 50.60: trcssl64: 012 WSACloseEvent(1428)
+20200331192840043 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192840043 26012 50.60: trcssl64: 012 WSACloseEvent(113c)
+20200331192840043 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192840044 26012 50.60: trcssl64: 012 WSACloseEvent(89c)
+20200331192840044 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192840045 26012 50.60: trcssl64: 012 WSACloseEvent(bd0)
+20200331192840045 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192840045 26012 50.60: trcssl64: 012 WSACloseEvent(1378)
+20200331192840046 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192840046 26012 50.60: trcssl64: 012 WSACloseEvent(1674)
+20200331192840046 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331192840483 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,500,d2fe1ff1c0)
+20200331192840483 14492 50.60: trcssl64: 007 4fc: WSAEnumNetworkEvents(,,) -> 0
+20200331192840484 14492 50.60: trcssl64: 007 4fc: recv(,29a4eb7db50,4400,0)
+20200331192840487 14492 50.60: trcssl64: 007 4fc: recv(,29a4eb7db50,,) -> ffffffff
+20200331192840488 14492 50.60: trcssl64: 007 4fc: shutdown(,1)
+20200331192840490 14492 50.60: trcssl64: 007 4fc: shutdown(,) -> 0
+20200331192840491 14492 50.60: trcssl64: 007 4fc: closesocket() -> 0
+20200331192840493 14492 50.60: trcssl64: 007 WSACloseEvent(500)
+20200331192840494 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192840495 14492 50.60: trcssl64: 007 WSACloseEvent(504)
+20200331192840498 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192840877 14492 50.60: trcssl64: 017 CreateThread(640)
+20200331192840877 14492 50.60: trcssl64: 017 CreateThread(currentid(640) - child(5f40)) -> 290
+20200331192840878 14492 50.60: trcssl64: 007 WSASocketW -> 47c
+20200331192840878 14492 50.60: trcssl64: 007 WSASocketW
+20200331192840879 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192840879 14492 50.60: trcssl64: 007 WSACreateEvent() -> 440
+20200331192840880 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192840880 14492 50.60: trcssl64: 007 WSACreateEvent() -> 744
+20200331192840881 14492 50.60: trcssl64: 007 47c: connect(,d2fe1fdf38:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192840881 14492 50.60: trcssl64: 007 47c: closesocket() -> 0
+20200331192840882 14492 50.60: trcssl64: 007 WSACloseEvent(440)
+20200331192840882 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192840882 14492 50.60: trcssl64: 007 WSACloseEvent(744)
+20200331192840883 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192840883 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( wpad)  , SRV_NAME((NULL)), (PADDR 7ff84e4c4026))
+20200331192840885 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192841008 14492 50.60: trcssl64: 007 730: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5aa20,0)
+20200331192841008 14492 50.60: trcssl64: 007 730: WSASend(,,,,,,) -> 0
+20200331192841008 14492 50.60: trcssl64: 007 WSAResetEvent(740)
+20200331192841012 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192841018 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192841018 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192841021 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192841022 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192841167 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,73c,d2fe1ff1c0)
+20200331192841167 14492 50.60: trcssl64: 007 730: WSAEnumNetworkEvents(,,) -> 0
+20200331192841167 14492 50.60: trcssl64: 007 730: recv(,29a4eb99070,4400,0)
+20200331192841171 14492 50.60: trcssl64: 007 730: recv(,29a4eb99070,,) -> 78
+20200331192841172 14492 50.60: trcssl64: 007 730: recv(,29a4eb99070,4400,0)
+20200331192841173 14492 50.60: trcssl64: 007 730: recv(,29a4eb99070,,) -> ffffffff
+20200331192841197 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192841197 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192841197 14492 50.60: trcssl64: 007 48c: recv(,29a4eb99070,4400,0)
+20200331192841198 14492 50.60: trcssl64: 007 48c: recv(,29a4eb99070,,) -> a9
+20200331192841199 14492 50.60: trcssl64: 007 48c: recv(,29a4eb99070,4400,0)
+20200331192841200 14492 50.60: trcssl64: 007 48c: recv(,29a4eb99070,,) -> ffffffff
+20200331192841880 14492 50.60: trcssl64: 017  getaddrinfo( TID: 640 NAME( edge.microsoft.com)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192841880 14492 50.60: trcssl64: 017    GetAddrInfoW( NAME( edge.microsoft.com) , SRV_NAME((NULL)),)
+20200331192841881 14492 50.60: trcssl64: 017     WSASocketW -> 47c
+20200331192841884 14492 50.60: trcssl64: 017     WSASocketW
+20200331192841885 14492 50.60: trcssl64: 017     47c: closesocket() -> 0
+20200331192841886 14492 50.60: trcssl64: 017   GetAddrInfoW(,,,,) -> 0
+20200331192841888 14492 50.60: trcssl64: 017   IPv4 address 29a4aa4d920 13.107.6.158
+20200331192841889 14492 50.60: trcssl64: 017 getaddrinfo(,,,,) -> 0
+20200331192841889 14492 50.60: trcssl64: 007 WSASocketW -> 760
+20200331192841890 14492 50.60: trcssl64: 007 WSASocketW
+20200331192841890 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192841890 14492 50.60: trcssl64: 007 WSACreateEvent() -> 764
+20200331192841891 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192841891 14492 50.60: trcssl64: 007 WSACreateEvent() -> 744
+20200331192841893 14492 50.60: trcssl64: 007 760: connect(,d2fe1fe8e0:13.107.6.158:443,10) -> ffffffff [10035]
+20200331192841904 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,764,d2fe1ff1b8)
+20200331192841904 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,,) -> 0
+20200331192841904 14492 50.60: trcssl64: 007 760: recv(,d2fe1fef17,1,2)
+20200331192841905 14492 50.60: trcssl64: 007 760: recv(,d2fe1fef17,,) -> ffffffff
+20200331192841906 14492 50.60: trcssl64: 007 760: recv(,d2fe1fe9c7,1,2)
+20200331192841906 14492 50.60: trcssl64: 007 760: recv(,d2fe1fe9c7,,) -> ffffffff
+20200331192841907 14492 50.60: trcssl64: 007 760: WSASend(,d2fe1fe6e8,1,d2fe1fe6e4,0,29a4ea5c0b0,0)
+20200331192841907 14492 50.60: trcssl64: 007 760: WSASend(,,,,,,) -> 0
+20200331192841907 14492 50.60: trcssl64: 007 WSAResetEvent(744)
+20200331192841908 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192841908 14492 50.60: trcssl64: 007 760: recv(,29a4eb998b0,4400,0)
+20200331192841909 14492 50.60: trcssl64: 007 760: recv(,29a4eb998b0,,) -> ffffffff
+20200331192841985 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,764,d2fe1ff1c0)
+20200331192841985 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,,) -> 0
+20200331192841986 14492 50.60: trcssl64: 007 760: recv(,29a4eb998b0,4400,0)
+20200331192841987 14492 50.60: trcssl64: 007 760: recv(,29a4eb998b0,,) -> 85e
+20200331192841988 14492 50.60: trcssl64: 017 CreateThread(640)
+20200331192841988 14492 50.60: trcssl64: 017 CreateThread(currentid(640) - child(60f4)) -> 4fc
+20200331192841989 14492 50.60: trcssl64: 007 760: WSASend(,d2fe1fe808,1,d2fe1fe804,0,29a4ea5c0b0,0)
+20200331192841989 14492 50.60: trcssl64: 007 760: WSASend(,,,,,,) -> 0
+20200331192841989 14492 50.60: trcssl64: 007 WSAResetEvent(744)
+20200331192841990 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192841990 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,4400,0)
+20200331192841991 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,,) -> ffffffff
+20200331192841991 14492 50.60: trcssl64: 007 760: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c0b0,0)
+20200331192841992 14492 50.60: trcssl64: 007 760: WSASend(,,,,,,) -> 0
+20200331192841992 14492 50.60: trcssl64: 007 WSAResetEvent(744)
+20200331192841992 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192841993 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,764,d2fe1ff1c0)
+20200331192841993 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,,) -> 0
+20200331192841993 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,4400,0)
+20200331192841994 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,,) -> b7
+20200331192841996 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,4400,0)
+20200331192841996 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,,) -> ffffffff
+20200331192841996 14492 50.60: trcssl64: 007 760: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c0b0,0)
+20200331192841997 14492 50.60: trcssl64: 007 760: WSASend(,,,,,,) -> 0
+20200331192841997 14492 50.60: trcssl64: 007 WSAResetEvent(744)
+20200331192841998 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192841998 14492 50.60: trcssl64: 007 760: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c0b0,0)
+20200331192841999 14492 50.60: trcssl64: 007 760: WSASend(,,,,,,) -> 0
+20200331192841999 14492 50.60: trcssl64: 007 WSAResetEvent(744)
+20200331192842000 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192842000 14492 50.60: trcssl64: 007 760: WSASend(,d2fe1feb98,1,d2fe1feb94,0,29a4ea5c0b0,0)
+20200331192842000 14492 50.60: trcssl64: 007 760: WSASend(,,,,,,) -> 0
+20200331192842000 14492 50.60: trcssl64: 007 WSAResetEvent(744)
+20200331192842000 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192842096 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,764,d2fe1ff1c0)
+20200331192842096 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,,) -> 0
+20200331192842097 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,4400,0)
+20200331192842098 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,,) -> 163
+20200331192842100 14492 50.60: trcssl64: 007 WSASocketW -> 298
+20200331192842100 14492 50.60: trcssl64: 007 WSASocketW
+20200331192842100 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192842101 14492 50.60: trcssl64: 007 WSACreateEvent() -> 4e8
+20200331192842102 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192842103 14492 50.60: trcssl64: 007 WSACreateEvent() -> 3b0
+20200331192842104 14492 50.60: trcssl64: 007 298: connect(,d2fe1fd978:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192842104 14492 50.60: trcssl64: 007 298: closesocket() -> 0
+20200331192842105 14492 50.60: trcssl64: 007 WSACloseEvent(4e8)
+20200331192842105 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192842106 14492 50.60: trcssl64: 007 WSACloseEvent(3b0)
+20200331192842107 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192842110 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,4400,0)
+20200331192842111 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,,) -> ffffffff
+20200331192842112 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,764,d2fe1ff1c0)
+20200331192842112 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,,) -> 0
+20200331192842130 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,510,d2fe1ff1c0)
+20200331192842130 14492 50.60: trcssl64: 007 50c: WSAEnumNetworkEvents(,,) -> 0
+20200331192842130 14492 50.60: trcssl64: 007 50c: recv(,29a4eba0930,4400,0)
+20200331192842134 14492 50.60: trcssl64: 007 50c: recv(,29a4eba0930,,) -> ffffffff
+20200331192842135 14492 50.60: trcssl64: 007 50c: shutdown(,1)
+20200331192842135 14492 50.60: trcssl64: 007 50c: shutdown(,) -> 0
+20200331192842136 14492 50.60: trcssl64: 007 50c: closesocket() -> 0
+20200331192842137 14492 50.60: trcssl64: 007 WSACloseEvent(510)
+20200331192842137 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192842138 14492 50.60: trcssl64: 007 WSACloseEvent(514)
+20200331192842139 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192842466 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,4dc,d2fe1ff1c0)
+20200331192842466 14492 50.60: trcssl64: 007 4b4: WSAEnumNetworkEvents(,,) -> 0
+20200331192842466 14492 50.60: trcssl64: 007 4b4: recv(,29a4eba0930,4400,0)
+20200331192842468 14492 50.60: trcssl64: 007 4b4: recv(,29a4eba0930,,) -> ffffffff
+20200331192842469 14492 50.60: trcssl64: 007 4b4: shutdown(,1)
+20200331192842469 14492 50.60: trcssl64: 007 4b4: shutdown(,) -> 0
+20200331192842470 14492 50.60: trcssl64: 007 4b4: closesocket() -> 0
+20200331192842470 14492 50.60: trcssl64: 007 WSACloseEvent(4dc)
+20200331192842470 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192842471 14492 50.60: trcssl64: 007 WSACloseEvent(728)
+20200331192842471 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192843845 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 2af9
+20200331192843845 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 2af9
+20200331192844771 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,734,d2fe1ff1c0)
+20200331192844771 14492 50.60: trcssl64: 007 700: WSAEnumNetworkEvents(,,) -> 0
+20200331192844772 14492 50.60: trcssl64: 007 700: recv(,29a4eba0930,4400,0)
+20200331192844775 14492 50.60: trcssl64: 007 700: recv(,29a4eba0930,,) -> ffffffff
+20200331192844776 14492 50.60: trcssl64: 007 700: shutdown(,1)
+20200331192844778 14492 50.60: trcssl64: 007 700: shutdown(,) -> 0
+20200331192844779 14492 50.60: trcssl64: 007 700: closesocket() -> 0
+20200331192844780 14492 50.60: trcssl64: 007 WSACloseEvent(734)
+20200331192844780 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192844781 14492 50.60: trcssl64: 007 WSACloseEvent(72c)
+20200331192844781 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192847112 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,4b8,d2fe1ff1c0)
+20200331192847112 14492 50.60: trcssl64: 007 508: WSAEnumNetworkEvents(,,) -> 0
+20200331192847113 14492 50.60: trcssl64: 007 508: recv(,29a4eba0930,4400,0)
+20200331192847117 14492 50.60: trcssl64: 007 508: recv(,29a4eba0930,,) -> ffffffff
+20200331192847119 14492 50.60: trcssl64: 007 508: shutdown(,1)
+20200331192847121 14492 50.60: trcssl64: 007 508: shutdown(,) -> 0
+20200331192847122 14492 50.60: trcssl64: 007 508: closesocket() -> 0
+20200331192847123 14492 50.60: trcssl64: 007 WSACloseEvent(4b8)
+20200331192847127 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192847128 14492 50.60: trcssl64: 007 WSACloseEvent(748)
+20200331192847130 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192849885 14492 50.60: trcssl64: 007 WSASocketW -> 700
+20200331192849885 14492 50.60: trcssl64: 007 WSASocketW
+20200331192849886 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192849887 14492 50.60: trcssl64: 007 WSACreateEvent() -> 748
+20200331192849888 14492 50.60: trcssl64: 007 WSACreateEvent()
+20200331192849891 14492 50.60: trcssl64: 007 WSACreateEvent() -> 3b0
+20200331192849893 14492 50.60: trcssl64: 007 700: connect(,d2fe1fdf38:[fd3e:4f5a:5b81::1]:53,1c) -> ffffffff [10051]
+20200331192849895 14492 50.60: trcssl64: 007 700: closesocket() -> 0
+20200331192849900 14492 50.60: trcssl64: 007 WSACloseEvent(748)
+20200331192849901 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192849901 14492 50.60: trcssl64: 007 WSACloseEvent(3b0)
+20200331192849902 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192849902 14492 50.60: trcssl64: 009  getaddrinfo( TID: 5dbc NAME( wpad)  , SRV_NAME((NULL)), (PADDR 29a4ad002bc))
+20200331192849903 14492 50.60: trcssl64: 009    GetAddrInfoW( NAME( wpad) , SRV_NAME((NULL)),)
+20200331192853113 14492 50.60: trcssl64: 009   GetAddrInfoW(,,,,) -> 2af9
+20200331192853113 14492 50.60: trcssl64: 009 getaddrinfo(,,,,) -> 2af9
+20200331192936447 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,420,d2fe1ff1c0)
+20200331192936447 14492 50.60: trcssl64: 007 4d0: WSAEnumNetworkEvents(,,) -> 0
+20200331192936448 14492 50.60: trcssl64: 007 4d0: recv(,29a4eba0930,4400,0)
+20200331192936452 14492 50.60: trcssl64: 007 4d0: recv(,29a4eba0930,,) -> ffffffff
+20200331192936453 14492 50.60: trcssl64: 007 4d0: shutdown(,1)
+20200331192936454 14492 50.60: trcssl64: 007 4d0: shutdown(,) -> 0
+20200331192936456 14492 50.60: trcssl64: 007 4d0: closesocket() -> 0
+20200331192936456 14492 50.60: trcssl64: 007 WSACloseEvent(420)
+20200331192936458 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192936458 14492 50.60: trcssl64: 007 WSACloseEvent(3e8)
+20200331192936458 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331192941019 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331192941019 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331192941020 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331192941023 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331192941196 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331192941196 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331192941197 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,4400,0)
+20200331192941198 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,,) -> a9
+20200331192941199 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,4400,0)
+20200331192941199 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,,) -> ffffffff
+20200331192955886 14492 50.60: trcssl64: 009 CreateThread(5dbc)
+20200331192955886 14492 50.60: trcssl64: 009 CreateThread(currentid(5dbc) - child(3f38)) -> 498
+20200331193034762 26012 50.60: trcssl64: 035 CreateThread(4f80)
+20200331193034762 26012 50.60: trcssl64: 035 CreateThread(currentid(4f80) - child(eac)) -> 8b4
+20200331193035037 14492 50.60: trcssl64: 009 CreateThread(5dbc)
+20200331193035037 14492 50.60: trcssl64: 009 CreateThread(currentid(5dbc) - child(5bdc)) -> 408
+20200331193035041 26012 50.60: trcssl64: 012 WSASocketW -> 10b0
+20200331193035041 26012 50.60: trcssl64: 012 WSASocketW
+20200331193035043 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331193035043 26012 50.60: trcssl64: 012 WSACreateEvent() -> a68
+20200331193035044 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331193035044 26012 50.60: trcssl64: 012 WSACreateEvent() -> 7e4
+20200331193035045 26012 50.60: trcssl64: 012 10b0: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c151f8,1ca22c15278,1ca22c151a8,0)
+20200331193035046 26012 50.60: trcssl64: 012 10b0: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331193035047 26012 50.60: trcssl64: 012 WSASocketW -> 8b8
+20200331193035047 26012 50.60: trcssl64: 012 WSASocketW
+20200331193035048 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331193035048 26012 50.60: trcssl64: 012 WSACreateEvent() -> 840
+20200331193035048 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331193035049 26012 50.60: trcssl64: 012 WSACreateEvent() -> 63c
+20200331193035049 26012 50.60: trcssl64: 012 8b8: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c153c8,1ca22c15448,1ca22c15378,0)
+20200331193035049 26012 50.60: trcssl64: 012 8b8: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331193035050 26012 50.60: trcssl64: 012 WSASocketW -> 3ec
+20200331193035050 26012 50.60: trcssl64: 012 WSASocketW
+20200331193035050 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331193035051 26012 50.60: trcssl64: 012 WSACreateEvent() -> 53c
+20200331193035051 26012 50.60: trcssl64: 012 WSACreateEvent()
+20200331193035051 26012 50.60: trcssl64: 012 WSACreateEvent() -> 1168
+20200331193035051 26012 50.60: trcssl64: 012 3ec: WSARecvFrom(,b280fff150,1,b280fff148,b280fff14c,1ca22c15598,1ca22c15618,1ca22c15548,0)
+20200331193035052 26012 50.60: trcssl64: 012 3ec: WSARecvFrom(,,,,,,,,) -> ffffffff
+20200331193035052 26012 50.60: trcssl64: 012 10b0: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c151c8,0)
+20200331193035052 26012 50.60: trcssl64: 012 10b0: WSASendTo(,,,,,,,,) -> 0
+20200331193035053 26012 50.60: trcssl64: 012 WSAResetEvent(7e4)
+20200331193035053 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193035053 26012 50.60: trcssl64: 012 8b8: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c15398,0)
+20200331193035054 26012 50.60: trcssl64: 012 8b8: WSASendTo(,,,,,,,,) -> 0
+20200331193035054 26012 50.60: trcssl64: 012 WSAResetEvent(63c)
+20200331193035054 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193035054 26012 50.60: trcssl64: 012 3ec: WSASendTo(,b280ffef80,1,b280ffef7c,0,b280ffef90,10,1ca22c15568,0)
+20200331193035055 26012 50.60: trcssl64: 012 3ec: WSASendTo(,,,,,,,,) -> 0
+20200331193035055 26012 50.60: trcssl64: 012 WSAResetEvent(1168)
+20200331193035055 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193036057 26012 50.60: trcssl64: 012 10b0: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c151c8,0)
+20200331193036057 26012 50.60: trcssl64: 012 10b0: WSASendTo(,,,,,,,,) -> 0
+20200331193036058 26012 50.60: trcssl64: 012 WSAResetEvent(7e4)
+20200331193036059 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193036059 26012 50.60: trcssl64: 012 8b8: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15398,0)
+20200331193036060 26012 50.60: trcssl64: 012 8b8: WSASendTo(,,,,,,,,) -> 0
+20200331193036060 26012 50.60: trcssl64: 012 WSAResetEvent(63c)
+20200331193036061 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193036061 26012 50.60: trcssl64: 012 3ec: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15568,0)
+20200331193036061 26012 50.60: trcssl64: 012 3ec: WSASendTo(,,,,,,,,) -> 0
+20200331193036061 26012 50.60: trcssl64: 012 WSAResetEvent(1168)
+20200331193036063 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193037059 26012 50.60: trcssl64: 012 10b0: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c151c8,0)
+20200331193037059 26012 50.60: trcssl64: 012 10b0: WSASendTo(,,,,,,,,) -> 0
+20200331193037059 26012 50.60: trcssl64: 012 WSAResetEvent(7e4)
+20200331193037060 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193037060 26012 50.60: trcssl64: 012 8b8: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15398,0)
+20200331193037060 26012 50.60: trcssl64: 012 8b8: WSASendTo(,,,,,,,,) -> 0
+20200331193037061 26012 50.60: trcssl64: 012 WSAResetEvent(63c)
+20200331193037062 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193037063 26012 50.60: trcssl64: 012 3ec: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15568,0)
+20200331193037064 26012 50.60: trcssl64: 012 3ec: WSASendTo(,,,,,,,,) -> 0
+20200331193037064 26012 50.60: trcssl64: 012 WSAResetEvent(1168)
+20200331193037064 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193038059 26012 50.60: trcssl64: 012 10b0: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c151c8,0)
+20200331193038059 26012 50.60: trcssl64: 012 10b0: WSASendTo(,,,,,,,,) -> 0
+20200331193038059 26012 50.60: trcssl64: 012 WSAResetEvent(7e4)
+20200331193038063 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193038064 26012 50.60: trcssl64: 012 8b8: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15398,0)
+20200331193038065 26012 50.60: trcssl64: 012 8b8: WSASendTo(,,,,,,,,) -> 0
+20200331193038066 26012 50.60: trcssl64: 012 WSAResetEvent(63c)
+20200331193038068 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193038069 26012 50.60: trcssl64: 012 3ec: WSASendTo(,b280fff2a0,1,b280fff29c,0,b280fff2b0,10,1ca22c15568,0)
+20200331193038071 26012 50.60: trcssl64: 012 3ec: WSASendTo(,,,,,,,,) -> 0
+20200331193038075 26012 50.60: trcssl64: 012 WSAResetEvent(1168)
+20200331193038076 26012 50.60: trcssl64: 012 WSAResetEvent() -> 1
+20200331193040042 26012 50.60: trcssl64: 012 3ec: closesocket() -> 0
+20200331193040042 26012 50.60: trcssl64: 012 8b8: closesocket() -> 0
+20200331193040042 26012 50.60: trcssl64: 012 10b0: closesocket() -> 0
+20200331193040043 26012 50.60: trcssl64: 012 WSACloseEvent(53c)
+20200331193040043 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331193040043 26012 50.60: trcssl64: 012 WSACloseEvent(1168)
+20200331193040044 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331193040044 26012 50.60: trcssl64: 012 WSACloseEvent(840)
+20200331193040044 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331193040045 26012 50.60: trcssl64: 012 WSACloseEvent(63c)
+20200331193040045 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331193040046 26012 50.60: trcssl64: 012 WSACloseEvent(a68)
+20200331193040046 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331193040046 26012 50.60: trcssl64: 012 WSACloseEvent(7e4)
+20200331193040046 26012 50.60: trcssl64: 012 WSACloseEvent() -> 1
+20200331193046241 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,764,d2fe1ff1c0)
+20200331193046241 14492 50.60: trcssl64: 007 760: WSAEnumNetworkEvents(,,) -> 0
+20200331193046242 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,4400,0)
+20200331193046245 14492 50.60: trcssl64: 007 760: recv(,29a4eba0930,,) -> ffffffff
+20200331193046249 14492 50.60: trcssl64: 007 760: shutdown(,1)
+20200331193046251 14492 50.60: trcssl64: 007 760: shutdown(,) -> 0
+20200331193046254 14492 50.60: trcssl64: 007 760: closesocket() -> 0
+20200331193046256 14492 50.60: trcssl64: 007 WSACloseEvent(764)
+20200331193046257 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193046258 14492 50.60: trcssl64: 007 WSACloseEvent(744)
+20200331193046260 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193134759 26012 50.60: trcssl64: 035 CreateThread(4f80)
+20200331193134759 26012 50.60: trcssl64: 035 CreateThread(currentid(4f80) - child(2838)) -> 1674
+20200331193134847 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331193134847 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(27c4)) -> 8b8
+20200331193140234 26012 50.60: trcssl64: 054 CreateThread(5e00)
+20200331193140234 26012 50.60: trcssl64: 054 CreateThread(currentid(5e00) - child(2f80)) -> 16a0
+20200331193141020 14492 50.60: trcssl64: 007 48c: WSASend(,d2fe1fe468,1,d2fe1fe464,0,29a4ea5ab50,0)
+20200331193141020 14492 50.60: trcssl64: 007 48c: WSASend(,,,,,,) -> 0
+20200331193141021 14492 50.60: trcssl64: 007 WSAResetEvent(720)
+20200331193141028 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331193141206 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,6f4,d2fe1ff1c0)
+20200331193141206 14492 50.60: trcssl64: 007 48c: WSAEnumNetworkEvents(,,) -> 0
+20200331193141206 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,4400,0)
+20200331193141208 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,,) -> a9
+20200331193141208 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,4400,0)
+20200331193141209 14492 50.60: trcssl64: 007 48c: recv(,29a4eba0930,,) -> ffffffff
+20200331193221287 14492 50.60: trcssl64: 007 70c: WSASend(,d2fe1fdaa8,1,d2fe1fdaa4,0,29a4ea5bac0,0)
+20200331193221287 14492 50.60: trcssl64: 007 70c: WSASend(,,,,,,) -> 0
+20200331193221288 26012 50.60: trcssl64: 035 CreateThread(4f80)
+20200331193221288 14492 50.60: trcssl64: 007 WSAResetEvent(6e8)
+20200331193221288 26012 50.60: trcssl64: 035 CreateThread(currentid(4f80) - child(4098)) -> 142c
+20200331193221289 14492 50.60: trcssl64: 007 WSAResetEvent() -> 1
+20200331193221290 26012 50.60: trcssl64: 062 CreateThread(4098)
+20200331193221290 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,710,d2fe1ff1c0)
+20200331193221291 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331193221292 14492 50.60: trcssl64: 007 70c: WSAEnumNetworkEvents(,,) -> 0
+20200331193221291 26012 50.60: trcssl64: 062 CreateThread(currentid(4098) - child(f78)) -> 1670
+20200331193221293 14492 50.60: trcssl64: 007 70c: recv(,29a4eba0930,4400,0)
+20200331193221292 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(2ff0)) -> cf8
+20200331193221293 14492 50.60: trcssl64: 007 70c: recv(,29a4eba0930,,) -> 1c
+20200331193221294 14492 50.60: trcssl64: 007 70c: shutdown(,1)
+20200331193221295 14492 50.60: trcssl64: 007 70c: shutdown(,) -> 0
+20200331193221296 14492 50.60: trcssl64: 007 70c: closesocket() -> 0
+20200331193221296 14492 50.60: trcssl64: 007 WSACloseEvent(710)
+20200331193221297 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221298 14492 50.60: trcssl64: 007 WSACloseEvent(6e8)
+20200331193221300 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221336 26012 50.60: trcssl64: 001 CreateThread(6ad8)
+20200331193221336 26012 50.60: trcssl64: 001 CreateThread(currentid(6ad8) - child(3070)) -> 16c0
+20200331193221357 14492 50.60: trcssl64: 009 CreateThread(5dbc)
+20200331193221357 14492 50.60: trcssl64: 009 CreateThread(currentid(5dbc) - child(3188)) -> 744
+20200331193221598 14492 50.60: trcssl64: 007 730: shutdown(,1)
+20200331193221598 14492 50.60: trcssl64: 007 730: shutdown(,) -> 0
+20200331193221599 14492 50.60: trcssl64: 007 730: closesocket() -> 0
+20200331193221603 14492 50.60: trcssl64: 007 WSACloseEvent(73c)
+20200331193221605 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221607 14492 50.60: trcssl64: 007 WSACloseEvent(740)
+20200331193221609 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221611 14492 50.60: trcssl64: 007 48c: shutdown(,1)
+20200331193221614 14492 50.60: trcssl64: 007 48c: shutdown(,) -> 0
+20200331193221615 26012 50.60: trcssl64: 063 CreateThread(f78)
+20200331193221615 14492 50.60: trcssl64: 007 48c: closesocket() -> 0
+20200331193221616 26012 50.60: trcssl64: 063 CreateThread(currentid(f78) - child(61d0)) -> 15d8
+20200331193221616 14492 50.60: trcssl64: 007 WSACloseEvent(6f4)
+20200331193221616 26012 50.60: trcssl64: 012 CreateThread(6348)
+20200331193221618 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221618 26012 50.60: trcssl64: 012 CreateThread(currentid(6348) - child(58ec)) -> aec
+20200331193221619 14492 50.60: trcssl64: 007 WSACloseEvent(720)
+20200331193221621 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221628 14492 50.60: trcssl64: 007 4ec: shutdown(,1)
+20200331193221628 14492 50.60: trcssl64: 007 4ec: shutdown(,) -> 0
+20200331193221629 14492 50.60: trcssl64: 007 4ec: closesocket() -> 0
+20200331193221631 14492 50.60: trcssl64: 007 WSACloseEvent(4f0)
+20200331193221632 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221633 14492 50.60: trcssl64: 007 WSACloseEvent(4f4)
+20200331193221633 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221634 14492 50.60: trcssl64: 028 CreateThread(3188)
+20200331193221634 14492 50.60: trcssl64: 028 CreateThread(currentid(3188) - child(235c)) -> 4ec
+20200331193221634 14492 50.60: trcssl64: 006 CreateThread(1334)
+20200331193221635 14492 50.60: trcssl64: 006 CreateThread(currentid(1334) - child(774)) -> 4f4
+20200331193221636 14492 50.60: trcssl64: 007 WSACloseEvent(388)
+20200331193221636 14492 50.60: trcssl64: 007 WSACloseEvent() -> 1
+20200331193221755 14492 50.50: trcssl64: ### Closing.
+20200331193221755 ---- --.60: Client closed pipe.
